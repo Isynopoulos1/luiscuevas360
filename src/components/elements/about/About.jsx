@@ -1,5 +1,5 @@
 // IMPORT STYLING
-import { MainContainer } from "./About.styles";
+import { MainContainer } from "@elements/about/About.styles";
 
 function About() {
   return <MainContainer>About page</MainContainer>;

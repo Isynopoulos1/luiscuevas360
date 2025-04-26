@@ -3,6 +3,3 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   color: red;
 `;
-export const Nav = styled.div`
-  color: red;
-`;
