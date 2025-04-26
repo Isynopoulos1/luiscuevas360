@@ -3,7 +3,7 @@ name: Deploy Vite app to GitHub Pages
 on:
   push:
     branches:
-      - master # or "main" depending on your branch
+      - master
 
 jobs:
   build-deploy:
@@ -27,5 +27,5 @@ jobs:
       - name: Deploy to GitHub
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACTION_AUTHORIZER }}
           publish_dir: ./dist
