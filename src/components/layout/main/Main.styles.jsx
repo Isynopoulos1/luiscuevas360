@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-  color: purple;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid purple;
+  height: 2000px; //cambiar auto
+  background-color: gray;
 `;
 export const MainBanner = styled.div`
   color: purple;
