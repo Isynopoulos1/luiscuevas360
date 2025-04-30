@@ -7,11 +7,6 @@ import {
   ServicesWrapper,
   PlatformsWrapper,
   Testimonials,
-  ContactWrapper,
-  Location,
-  Recomendations,
-  Contact,
-  Social,
 } from "@layout/main/Main.styles";
 //IMPORT COMPONENTS
 //SERVICES ETC
@@ -23,30 +18,33 @@ function Main() {
   return (
     <main>
       <MainContainer>
-        Main
-        <MainBanner>{/* <p>{main.intro.description}</p> */}</MainBanner>
-        <AboutWrapper>{/* <p>{main.about.description}</p> */}</AboutWrapper>
-        <PhilosophyWrapper>
+        <MainBanner id="intro">
+          intro
+          {/* <p>{main.intro.description}</p> */}
+        </MainBanner>
+        <AboutWrapper id="about">
+          about
+          {/* <p>{main.about.description}</p> */}
+        </AboutWrapper>
+        <PhilosophyWrapper id="philosophy">
+          filosofia
           {/* <p>{main.philosophy.description1}</p> */}
         </PhilosophyWrapper>
-        <ServicesWrapper>
+        <ServicesWrapper id="services">
+          servicios
           {/* <p>{main.services.description1}</p> */}
         </ServicesWrapper>
-        <PlatformsWrapper>
+        <PlatformsWrapper id="platforms">
+          plataformas
           {/* <p>{main.platforms.description1}</p> */}
+          <Testimonials>
+            testimoniales
+            {/* <p>{main.testimonial.1}</p> */}
+            {/* <p>{main.testimonial.2}</p> */}
+            {/* <p>{main.testimonial.3}</p> */}
+            {/* <p>{main.testimonial.4}</p> */}
+          </Testimonials>
         </PlatformsWrapper>
-        <Testimonials>
-          {/* <p>{main.testimonial.1}</p> */}
-          {/* <p>{main.testimonial.2}</p> */}
-          {/* <p>{main.testimonial.3}</p> */}
-          {/* <p>{main.testimonial.4}</p> */}
-        </Testimonials>
-        <ContactWrapper>
-          <Location>{/* <p>{main.testimonial.1}</p> */}</Location>
-          <Recomendations>{/* <p>{main.testimonial.1}</p> */}</Recomendations>
-          <Contact>{/* <p>{main.testimonial.1}</p> */}</Contact>
-          <Social>{/*social network including whatsapp */}</Social>
-        </ContactWrapper>
       </MainContainer>
     </main>
   );

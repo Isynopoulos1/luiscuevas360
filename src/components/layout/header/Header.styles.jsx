@@ -1,7 +1,7 @@
 import styled from "styled-components";
 //import { colors, sizes } from "@styles/constants"
 
-export const Main = styled.main`
+export const StickyHeader = styled.header`
   position: fixed;
   top: 0;
   z-index: 2;
@@ -34,4 +34,14 @@ export const Nav = styled.nav`
   justify-content: flex-end;
   align-items: center;
   gap: 24px;
+`;
+export const NavItem = styled.a`
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: #722ec0;
+  }
 `;

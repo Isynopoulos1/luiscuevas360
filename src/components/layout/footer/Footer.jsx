@@ -3,7 +3,7 @@ import React from "react";
 // IMPORT STYLING
 import {
   MainContainer,
-  Contact,
+  ContactWrapper,
   Location,
   Recomendations,
   Phone,
@@ -15,14 +15,15 @@ import {
 function Footer() {
   return (
     <MainContainer>
-      Footer
-      <Contact>{/* <p>{footer.contact.description}</p> */}</Contact>
-      <Location>{/* <p>{footer.location.description}</p> */}</Location>
-      <Recomendations>
-        {/* <p>{footer.recomendations.description}</p> */}
-      </Recomendations>
-      <Phone>{/* <p>{footer.phone.description}</p> */}</Phone>
-      <Social>{/* <p>{footer.social.description}</p> */}</Social>
+      <ContactWrapper id="contact">
+        contacto
+        <Location>{/* <p>{main.testimonial.1}</p> */}locacion</Location>
+        <Recomendations>
+          {/* <p>{main.testimonial.1}</p> */}recomendaciones
+        </Recomendations>
+        <Phone>{/* <p>{main.testimonial.1}</p> */} telefono</Phone>
+        <Social>{/*social network including whatsapp */}social</Social>
+      </ContactWrapper>
     </MainContainer>
   );
 }

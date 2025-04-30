@@ -6,7 +6,8 @@ import {
   MainContainer,
   HeaderWrapper,
   Nav,
-  Main,
+  NavItem,
+  StickyHeader,
 } from "@layout/header/Header.styles";
 // IMPORT DATA
 //copies
@@ -18,25 +19,20 @@ function Header() {
 
   //MAIN RENDER
   return (
-    <Main>
+    <StickyHeader>
       <MainContainer>
         <HeaderWrapper>
           <Logo />
           <Nav>
-            <div>Nav</div>
-            <div>Nav</div>
-            <div>Nav</div>
-            <div>Nav</div>
-            <div>Nav</div>
-            {/* <p>{header.nav.1}</p> */}
-            {/* <p>{header.nav.2}</p> */}
-            {/* <p>{header.nav.3}</p> */}
-            {/* <p>{header.nav.4}</p> */}
-            {/* <p>{header.nav.5} BUTTON CONTACT</p> */}
+            <NavItem href="#about">Sobre mí</NavItem>
+            <NavItem href="#philosophy">Filosofía</NavItem>
+            <NavItem href="#services">Habilidades</NavItem>
+            <NavItem href="#platforms">Plataformas</NavItem>
+            <NavItem href="#contact">Contacto</NavItem>
           </Nav>
         </HeaderWrapper>
       </MainContainer>
-    </Main>
+    </StickyHeader>
   );
 }
 

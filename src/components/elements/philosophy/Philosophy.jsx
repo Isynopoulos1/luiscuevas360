@@ -1,7 +1,10 @@
 import { MainContainer } from "@elements/philosophy/Philosophy.styles";
 
 function Philosophy() {
-  return <MainContainer>Philosophy page</MainContainer>;
+  return;
+  <section id="philosophy">
+    <MainContainer>Philosophy page</MainContainer>;
+  </section>;
 }
 
 export default Philosophy;

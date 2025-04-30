@@ -2,7 +2,10 @@
 import { MainContainer } from "@elements/about/About.styles";
 
 function About() {
-  return <MainContainer>About page</MainContainer>;
+  return;
+  <section id="about">
+    <MainContainer>About page</MainContainer>;
+  </section>;
 }
 
 export default About;

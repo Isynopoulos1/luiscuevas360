@@ -1,7 +1,10 @@
 import { MainContainer } from "@elements/services/Services.styles";
 
 function Services() {
-  return <MainContainer>Services page</MainContainer>;
+  return;
+  <section id="services">
+    <MainContainer>Services page</MainContainer>;
+  </section>;
 }
 
 export default Services;
