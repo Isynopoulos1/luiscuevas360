@@ -1,3 +1,5 @@
+//IMPORT COMPONENTS
+import Card from "@elements/card/Card.jsx";
 // IMPORT STYLING
 import {
   MainContainer,
@@ -8,13 +10,23 @@ import {
   PlatformsWrapper,
   Testimonials,
 } from "@layout/main/Main.styles";
-//IMPORT COMPONENTS
-//SERVICES ETC
 
 // IMPORT DATA
-//copies
+import { services } from "@data/services";
 
 function Main() {
+  //RENDER FUNCTIONS
+  const renderServices = () =>
+    services?.map((s, i) => (
+      <Card
+        key={i}
+        title={s.title}
+        img={s.href}
+        plan={s.plan}
+        description={s.description}
+      />
+    )) ?? [];
+  //MAIN RENDER
   return (
     <main>
       <MainContainer>
@@ -22,28 +34,15 @@ function Main() {
           intro
           {/* <p>{main.intro.description}</p> */}
         </MainBanner>
-        <AboutWrapper id="about">
-          about
-          {/* <p>{main.about.description}</p> */}
-        </AboutWrapper>
-        <PhilosophyWrapper id="philosophy">
-          filosofia
-          {/* <p>{main.philosophy.description1}</p> */}
-        </PhilosophyWrapper>
+        <AboutWrapper id="about">about</AboutWrapper>
+        <PhilosophyWrapper id="philosophy">filosofia</PhilosophyWrapper>
         <ServicesWrapper id="services">
-          servicios
-          {/* <p>{main.services.description1}</p> */}
+          {renderServices()}
+          {/* <Card /> */}
         </ServicesWrapper>
         <PlatformsWrapper id="platforms">
           plataformas
-          {/* <p>{main.platforms.description1}</p> */}
-          <Testimonials>
-            testimoniales
-            {/* <p>{main.testimonial.1}</p> */}
-            {/* <p>{main.testimonial.2}</p> */}
-            {/* <p>{main.testimonial.3}</p> */}
-            {/* <p>{main.testimonial.4}</p> */}
-          </Testimonials>
+          <Testimonials>testimoniales</Testimonials>
         </PlatformsWrapper>
       </MainContainer>
     </main>

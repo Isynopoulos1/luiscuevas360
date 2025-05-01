@@ -26,7 +26,7 @@ function Header() {
           <Nav>
             <NavItem href="#about">Sobre mí</NavItem>
             <NavItem href="#philosophy">Filosofía</NavItem>
-            <NavItem href="#services">Habilidades</NavItem>
+            <NavItem href="#services">Sevicios</NavItem>
             <NavItem href="#platforms">Plataformas</NavItem>
             <NavItem href="#contact">Contacto</NavItem>
           </Nav>
