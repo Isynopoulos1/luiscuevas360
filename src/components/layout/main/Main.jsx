@@ -7,16 +7,19 @@ import {
   MainContainer,
   AboutSection,
   IntroSection,
+  ColumnLeft,
   PhilosophySection,
   ServicesSection,
   PlatformsSection,
   Testimonials,
   SectionName,
   LogoContainer,
+  DescriptionIntro,
 } from "@layout/main/Main.styles";
 
 // IMPORT DATA
-import { services } from "@data/services";
+import { services } from "@data/plans";
+import texts from "@data/texts.json";
 
 function Main() {
   //RENDER FUNCTIONS
@@ -35,12 +38,15 @@ function Main() {
     <main>
       <MainContainer>
         <IntroSection id="intro">
-          <LogoContainer>
-            <Logo />
-          </LogoContainer>
-
-          <Button />
-          {/* <p>{main.intro.description}</p> */}
+          <ColumnLeft>
+            <LogoContainer>
+              <Logo />
+            </LogoContainer>
+            <DescriptionIntro>
+              <p>{texts.intro.description}</p>
+              <Button />
+            </DescriptionIntro>
+          </ColumnLeft>
         </IntroSection>
         <SectionName>Sobre Mi</SectionName>
         <AboutSection id="about">about</AboutSection>

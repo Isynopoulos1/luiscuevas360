@@ -1,13 +1,5 @@
 // IMPORT UTILS
 
-export const intro = [
-  {
-    title: "lorem ipsum",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-  },
-];
-
 export const services = [
   {
     href: "https://ik.imagekit.io/ppayaz/iselalarcon/luis-cuevas-360/planes/retiro-hor.png?updatedAt=1746090175058",
