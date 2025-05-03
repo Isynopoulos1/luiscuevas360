@@ -6,8 +6,8 @@ export const MainContainer = styled.div`
   margin: 0 auto;
   border: 1px solid purple;
   height: auto;
-  @media only screen and (max-width: 900px) {
-    padding: 8px;
+  @media only screen and (max-width: 1200px) {
+    padding: 24px;
   }
 `;
 export const ContactWrapper = styled.div`

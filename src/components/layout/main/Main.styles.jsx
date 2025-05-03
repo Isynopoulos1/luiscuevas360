@@ -7,8 +7,8 @@ export const MainContainer = styled.div`
   border: 1px solid purple;
   height: auto; //cambiar auto
   padding-top: 200px; // altura del header
-  @media only screen and (max-width: 900px) {
-    padding: 8px;
+  @media only screen and (max-width: 1200px) {
+    padding: 24px;
   }
 `;
 export const MainBanner = styled.div`

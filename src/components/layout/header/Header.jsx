@@ -76,6 +76,7 @@ function Header() {
   //LOGIC DESKTOP
 
   //MAIN RENDER
+
   return (
     <StickyHeader>
       <MainContainer>
@@ -84,16 +85,16 @@ function Header() {
           {!isMobile && renderLinks()}
         </HeaderWrapper>
         {isMobile && <HamburguerMenu onClick={handleToggle} active={toggle} />}
-        {isMobile && toggle && (
-          <MobileNav>
-            {links.map((link) => (
-              <NavItem key={link.href} onClick={() => handleLink(link.href)}>
-                {link.label}
-              </NavItem>
-            ))}
-          </MobileNav>
-        )}
       </MainContainer>
+      {isMobile && toggle && (
+        <MobileNav>
+          {links.map((link) => (
+            <NavItem key={link.href} onClick={() => handleLink(link.href)}>
+              {link.label}
+            </NavItem>
+          ))}
+        </MobileNav>
+      )}
     </StickyHeader>
   );
 }
