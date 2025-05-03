@@ -49,11 +49,13 @@ export const Nav = styled.nav`
   justify-content: flex-end;
   align-items: center;
   gap: 24px;
+  font-size: 16px;
+  font-weight: 300;
 `;
 export const NavItem = styled.a`
   text-decoration: none;
+
   color: #333;
-  font-weight: 500;
   transition: color 0.2s ease-in-out;
 
   &:hover {

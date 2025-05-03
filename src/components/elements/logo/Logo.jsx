@@ -1,9 +1,9 @@
 import React from "react";
 import { LogoStyle } from "./Logo.styles";
 
-const Logo = () => {
+const Logo = ({ onClick }) => {
   return (
-    <LogoStyle>
+    <LogoStyle onClick={() => onClick("intro")}>
       <svg viewBox="0 0 200 16">
         <linearGradient
           id="a"

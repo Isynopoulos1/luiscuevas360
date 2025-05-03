@@ -53,11 +53,11 @@ function Header() {
   };
   //DATA
   const links = [
-    { label: "sobre mi", href: "about" },
-    { label: "filosofia", href: "philosophy" },
-    { label: "servicios", href: "services" },
-    { label: "plataformas", href: "platforms" },
-    { label: "contacto", href: "contact" },
+    { label: "Sobre mi", href: "about" },
+    { label: "Filosofia", href: "philosophy" },
+    { label: "Servicios", href: "services" },
+    { label: "Plataformas", href: "platforms" },
+    { label: "Contacto", href: "contact" },
   ];
   //RENDER FUNCTIONS
   const renderLinks = () => {
@@ -81,7 +81,7 @@ function Header() {
     <StickyHeader>
       <MainContainer>
         <HeaderWrapper>
-          <Logo onClick={handleLink} />
+          <Logo onClick={() => handleLink("intro")} />
           {!isMobile && renderLinks()}
         </HeaderWrapper>
         {isMobile && <HamburguerMenu onClick={handleToggle} active={toggle} />}

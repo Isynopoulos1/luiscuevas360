@@ -4,4 +4,5 @@ export const LogoStyle = styled.svg`
   width: 200px;
   height: auto;
   display: block;
+  cursor: pointer;
 `;

@@ -6,6 +6,8 @@ export const MainContainer = styled.div`
   flex-direction: column;
   height: auto;
   gap: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   @media only screen and (max-width: 900px) {
     width: 100%;
   }
@@ -21,9 +23,11 @@ export const Content = styled.div`
 `;
 export const Plan = styled.h1`
   font-size: 16px;
+  font-weight: 600;
 `;
 export const Description = styled.p`
   font-size: 16px;
+  font-weight: 300;
 `;
 export const ServiceStyle = styled.div`
   position: relative;
