@@ -1,5 +1,24 @@
 import styled from "styled-components";
-
+export const ContactSection = styled.div`
+  height: 200px;
+  scroll-margin-top: 200px;
+`;
+export const PhilosophySection = styled.div`
+  height: 200px;
+  scroll-margin-top: 200px;
+  border: 1px solid gray;
+`;
+export const AboutSection = styled.div`
+  height: 200px;
+  scroll-margin-top: 200px;
+`;
+export const IntroSection = styled.div`
+  height: 200px;
+  scroll-margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+`;
 export const MainContainer = styled.div`
   position: relative;
   max-width: 1200px;
@@ -11,22 +30,14 @@ export const MainContainer = styled.div`
     padding: 24px;
   }
 `;
-export const MainBanner = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
+export const LogoContainer = styled.svg`
+  width: 500px;
 `;
-export const AboutWrapper = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const ServiceName = styled.p`
+export const SectionName = styled.p`
   font-size: 40px;
+  font-weight: 200;
 `;
-export const PhilosophyWrapper = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const ServicesWrapper = styled.div`
+export const ServicesSection = styled.div`
   width: 100%;
   gap: 32px;
   justify-content: space-between;
@@ -34,16 +45,14 @@ export const ServicesWrapper = styled.div`
   flex-wrap: wrap;
   height: auto;
   scroll-margin-top: 200px;
+  border: 1px solid gray;
 `;
-export const PlatformsWrapper = styled.div`
+export const PlatformsSection = styled.div`
   height: 200px;
   scroll-margin-top: 200px;
+  border: 1px solid gray;
 `;
 export const Testimonials = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const ContactWrapper = styled.div`
   height: 200px;
   scroll-margin-top: 200px;
 `;

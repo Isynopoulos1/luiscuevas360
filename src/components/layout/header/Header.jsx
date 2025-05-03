@@ -3,7 +3,7 @@ import { contentW } from "@utils/constants";
 
 // IMPORT COMPONENTS
 import Logo from "@elements/logo/Logo.jsx";
-import HamburguerMenu from "@elements/hamburguerMenu/HamburguerMenu";
+import HamburguerMenu from "@elements/hamburguer/HamburguerMenu";
 import Link from "@elements/link/Link";
 
 // IMPORT STYLING

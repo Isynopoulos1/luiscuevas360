@@ -1,15 +1,18 @@
 //IMPORT COMPONENTS
 import Card from "@elements/card/Card.jsx";
+import Button from "@elements/button/Button.jsx";
+import Logo from "@elements/logo/Logo.jsx";
 // IMPORT STYLING
 import {
   MainContainer,
-  AboutWrapper,
-  MainBanner,
-  PhilosophyWrapper,
-  ServicesWrapper,
-  PlatformsWrapper,
+  AboutSection,
+  IntroSection,
+  PhilosophySection,
+  ServicesSection,
+  PlatformsSection,
   Testimonials,
-  ServiceName,
+  SectionName,
+  LogoContainer,
 } from "@layout/main/Main.styles";
 
 // IMPORT DATA
@@ -31,21 +34,29 @@ function Main() {
   return (
     <main>
       <MainContainer>
-        <MainBanner id="intro">
-          intro
+        <IntroSection id="intro">
+          <LogoContainer>
+            <Logo />
+          </LogoContainer>
+
+          <Button />
           {/* <p>{main.intro.description}</p> */}
-        </MainBanner>
-        <AboutWrapper id="about">about</AboutWrapper>
-        <PhilosophyWrapper id="philosophy">filosofia</PhilosophyWrapper>
-        <ServiceName>Services</ServiceName>
-        <ServicesWrapper id="services">
+        </IntroSection>
+        <SectionName>Sobre Mi</SectionName>
+        <AboutSection id="about">about</AboutSection>
+        <SectionName>Filosofia</SectionName>
+        <PhilosophySection id="philosophy">filosofia</PhilosophySection>
+        <SectionName>Services</SectionName>
+        <ServicesSection id="services">
           {renderServices()}
           {/* <Card /> */}
-        </ServicesWrapper>
-        <PlatformsWrapper id="platforms">
+        </ServicesSection>
+        <SectionName>Plataformas</SectionName>
+        <PlatformsSection id="platforms">
           plataformas
+          <SectionName>Testimoniales</SectionName>
           <Testimonials>testimoniales</Testimonials>
-        </PlatformsWrapper>
+        </PlatformsSection>
       </MainContainer>
     </main>
   );

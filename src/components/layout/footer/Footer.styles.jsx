@@ -1,5 +1,13 @@
 import styled from "styled-components";
-
+export const ContactSection = styled.div`
+  color: blue;
+  scroll-margin-top: 200px;
+  border: 1px solid gray;
+`;
+export const SectionName = styled.p`
+  font-size: 40px;
+  font-weight: 200;
+`;
 export const MainContainer = styled.div`
   color: blue;
   max-width: 1200px;
@@ -9,10 +17,6 @@ export const MainContainer = styled.div`
   @media only screen and (max-width: 1200px) {
     padding: 24px;
   }
-`;
-export const ContactWrapper = styled.div`
-  color: blue;
-  scroll-margin-top: 200px;
 `;
 export const Location = styled.div`
   color: blue;

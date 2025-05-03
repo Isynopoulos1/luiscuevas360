@@ -3,11 +3,12 @@ import React from "react";
 // IMPORT STYLING
 import {
   MainContainer,
-  ContactWrapper,
+  ContactSection,
   Location,
   Recomendations,
   Phone,
   Social,
+  SectionName,
 } from "./Footer.styles";
 // IMPORT DATA
 //copies
@@ -15,7 +16,8 @@ import {
 function Footer() {
   return (
     <MainContainer>
-      <ContactWrapper id="contact">
+      <SectionName>Contacto</SectionName>
+      <ContactSection id="contact">
         contacto
         <Location>{/* <p>{main.testimonial.1}</p> */}locacion</Location>
         <Recomendations>
@@ -23,7 +25,7 @@ function Footer() {
         </Recomendations>
         <Phone>{/* <p>{main.testimonial.1}</p> */} telefono</Phone>
         <Social>{/*social network including whatsapp */}social</Social>
-      </ContactWrapper>
+      </ContactSection>
     </MainContainer>
   );
 }

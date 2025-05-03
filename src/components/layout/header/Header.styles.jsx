@@ -54,8 +54,7 @@ export const Nav = styled.nav`
 `;
 export const NavItem = styled.a`
   text-decoration: none;
-
-  color: #333;
+  color: #000;
   transition: color 0.2s ease-in-out;
 
   &:hover {

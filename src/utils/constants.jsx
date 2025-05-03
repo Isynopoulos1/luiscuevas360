@@ -67,9 +67,10 @@ export const formW = {
 };
 
 export const colors = {
-  silver: "#cccbcb",
+  default: "#9359fc",
+  hover: "#5c24c5",
+  stroke: "#7f44ee",
   black: "#000000",
-  white: "#ffffff",
-  minimal: "#00000021",
-  hover: "#f3f3f3",
+  white: "#ffff",
+  turquesa: "#61BFC5",
 };
