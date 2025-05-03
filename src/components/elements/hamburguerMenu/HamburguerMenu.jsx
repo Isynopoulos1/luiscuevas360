@@ -1,13 +1,11 @@
 import React from "react";
 import { Cross as Burger } from "hamburger-react";
-//TODO: IMPORT PROPTYPES
-
 import { MenuWrapper } from "./HamburguerMenu.styles";
 
-const HamburguerMenu = ({ onClick }) => {
+const HamburguerMenu = ({ onClick, active }) => {
   return (
-    <MenuWrapper onClick={onClick}>
-      <Burger />
+    <MenuWrapper>
+      <Burger toggled={active} toggle={onClick} />
     </MenuWrapper>
   );
 };

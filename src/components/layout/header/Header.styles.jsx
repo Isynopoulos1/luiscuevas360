@@ -28,6 +28,21 @@ export const HeaderWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
+//nuevo estilo posicional
+export const MobileNav = styled.nav`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+`;
 
 export const Nav = styled.nav`
   display: flex;

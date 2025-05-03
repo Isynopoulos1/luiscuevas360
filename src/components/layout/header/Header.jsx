@@ -13,6 +13,7 @@ import {
   Nav,
   NavItem,
   StickyHeader,
+  MobileNav,
 } from "@layout/header/Header.styles";
 // IMPORT DATA
 //copies
@@ -40,13 +41,14 @@ function Header() {
     setToggle(!toggle);
   };
   const handleLink = () => {
-    const section = document.getElementById("about");
+    const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({
         behavior: "smooth",
         block: "start",
         inline: "end",
       });
+      setToggle(false); // Cierra el menú tras click
     }
   };
   //DATA
@@ -62,7 +64,11 @@ function Header() {
     return (
       <Nav>
         {links.map((link) => (
-          <Link label={link.label} onClick={() => handleLink(link.href)} />
+          <Link
+            key={link.href}
+            label={link.label}
+            onClick={() => handleLink(link.href)}
+          />
         ))}
       </Nav>
     );
@@ -79,14 +85,13 @@ function Header() {
         </HeaderWrapper>
         {isMobile && <HamburguerMenu onClick={handleToggle} active={toggle} />}
         {isMobile && toggle && (
-          <Nav>
-            {renderLinks()}
-            <NavItem href="#about">Sobre mí</NavItem>
-            <NavItem href="#philosophy">Filosofía</NavItem>
-            <NavItem href="#services">Sevicios</NavItem>
-            <NavItem href="#platforms">Plataformas</NavItem>
-            <NavItem href="#contact">Contacto</NavItem>
-          </Nav>
+          <MobileNav>
+            {links.map((link) => (
+              <NavItem key={link.href} onClick={() => handleLink(link.href)}>
+                {link.label}
+              </NavItem>
+            ))}
+          </MobileNav>
         )}
       </MainContainer>
     </StickyHeader>
