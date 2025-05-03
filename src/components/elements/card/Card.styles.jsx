@@ -2,10 +2,17 @@ import styled from "styled-components";
 // import { colors, sizes } from "@styles/constants"
 export const MainContainer = styled.div`
   display: flex;
-  width: calc(45% - 1px);
+  width: calc(48% - 1px);
   flex-direction: column;
   height: auto;
   gap: 32px;
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
+  @media only screen and (max-width: 750px) {
+  }
+  @media only screen and (max-width: 450px) {
+  }
 `;
 export const Content = styled.div`
   display: flex;
@@ -24,10 +31,12 @@ export const ServiceStyle = styled.div`
   overflow: hidden;
   filter: saturate(0);
   transition: all 0.5s ease;
+  border-radius: 8px;
   img {
     width: 100%;
     height: 100%;
     transition: all 0.5s ease;
+    border-radius: 8px;
   }
   h3 {
     position: absolute;
@@ -50,6 +59,8 @@ export const ServiceStyle = styled.div`
     h3 {
       color: white;
     }
+  }
+  @media only screen and (max-width: 900px) {
   }
 
   @media only screen and (max-width: 750px) {

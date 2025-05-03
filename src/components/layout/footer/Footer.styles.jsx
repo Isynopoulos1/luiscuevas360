@@ -5,7 +5,10 @@ export const MainContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   border: 1px solid purple;
-  height: auto; //cambiar auto
+  height: auto;
+  @media only screen and (max-width: 900px) {
+    padding: 8px;
+  }
 `;
 export const ContactWrapper = styled.div`
   color: blue;

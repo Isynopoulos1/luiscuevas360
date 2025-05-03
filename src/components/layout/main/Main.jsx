@@ -9,6 +9,7 @@ import {
   ServicesWrapper,
   PlatformsWrapper,
   Testimonials,
+  ServiceName,
 } from "@layout/main/Main.styles";
 
 // IMPORT DATA
@@ -36,6 +37,7 @@ function Main() {
         </MainBanner>
         <AboutWrapper id="about">about</AboutWrapper>
         <PhilosophyWrapper id="philosophy">filosofia</PhilosophyWrapper>
+        <ServiceName>Services</ServiceName>
         <ServicesWrapper id="services">
           {renderServices()}
           {/* <Card /> */}
