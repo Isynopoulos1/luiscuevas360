@@ -2,11 +2,14 @@ import styled from "styled-components";
 // import { zindex } from "@utils";
 
 export const MenuWrapper = styled.div`
-  display: flex;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 20;
   cursor: pointer;
   align-items: center;
-  height: 100%;
-  z-index: 2;
+
   & .hamburger-react > * {
     height: 1px !important;
   }

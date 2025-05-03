@@ -40,7 +40,7 @@ function Header() {
   const handleToggle = () => {
     setToggle(!toggle);
   };
-  const handleLink = () => {
+  const handleLink = (id) => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({
