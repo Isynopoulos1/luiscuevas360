@@ -1,21 +1,29 @@
 import styled from "styled-components";
+import {
+  colors,
+  sizes,
+  zindex,
+  spaces,
+  contentW,
+  weights,
+} from "@utils/constants";
 export const ContactSection = styled.div`
   color: blue;
   scroll-margin-top: 200px;
   border: 1px solid gray;
 `;
 export const SectionName = styled.p`
-  font-size: 40px;
-  font-weight: 200;
+  font-size: ${sizes.size_5};
+  font-weight: ${weights.ultralight};
 `;
 export const MainContainer = styled.div`
   color: blue;
-  max-width: 1200px;
+  max-width: ${contentW.landing};
   margin: 0 auto;
   border: 1px solid purple;
   height: auto;
-  @media only screen and (max-width: 1200px) {
-    padding: 24px;
+  @media only screen and (max-width: ${contentW.desktop}) {
+    padding: ${spaces.space_3};
   }
 `;
 export const Location = styled.div`

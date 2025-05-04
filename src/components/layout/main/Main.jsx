@@ -8,6 +8,7 @@ import {
   AboutSection,
   IntroSection,
   ColumnLeft,
+  ColumnRight,
   PhilosophySection,
   ServicesSection,
   PlatformsSection,
@@ -47,6 +48,7 @@ function Main() {
               <Button />
             </DescriptionIntro>
           </ColumnLeft>
+          <ColumnRight>foto</ColumnRight>
         </IntroSection>
         <SectionName>Sobre Mi</SectionName>
         <AboutSection id="about">about</AboutSection>

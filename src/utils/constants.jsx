@@ -1,69 +1,58 @@
 export const sizes = {
-  tiny: "8px",
-  xss: "10px",
-  xs: "12px",
-  sm: "14px",
-  ssm: "17px",
-  md: "20px",
-  lg: "24px",
-  xl: "32px",
-  xll: "40px",
-  xxll: "45px",
-  hg: "55px",
-  xhg: "96px",
-  xxhg: "100px",
-  xxl: "200px",
-  xxxl: "250px",
-  xxxxl: "350px",
-  super: "500px",
-  mega: "800px",
-};
-
-export const fonts = {
-  font1: "Cammron-Regular",
-  font2: " Roboto , sans-serif",
+  size_1: "8px",
+  size_2: "16px",
+  size_3: "24px",
+  size_4: "32px",
+  size_5: "40px",
+  size_6: "48px",
+  size_7: "56px",
+  size_8: "64px",
+  size_9: "72px",
+  size_10: "80px",
+  size_11: "88px",
+  size_12: "96px",
+  size_13: "104px",
+  size_14: "112px",
+  size_15: "120px",
+  size_16: "128px",
+  size_17: "136px",
+  size_18: "144px",
+  size_19: "152px",
+  size_20: "160px",
 };
 
 export const spaces = {
-  tiny: "5px",
-  xss: " 20px",
-  xs: " 50px",
-  ssm: " 64px",
-  sm: "100px",
-  md: "150px",
-  lg: "300px",
-  xl: "400px",
-  xxl: "560px",
+  space_1: "8px",
+  space_2: "16px",
+  space_3: "24px",
+  space_4: "32px",
+  space_5: "40px",
+  space_6: "48px",
+  space_7: "56px",
+  space_8: "64px",
+  space_9: "72px",
+  space_10: "80px",
 };
 
 export const weights = {
   regular: 400,
   bold: 700,
   light: 300,
+  ultralight: 200,
 };
 export const zindex = {
   base: "1",
   header: "2",
   overlay: "3",
-  modal: "4",
-  sidebar: "5",
+  sidebar: "10",
+  mobile_menu: "20",
 };
 
 export const contentW = {
+  landing: "1200px",
   mobile: "700px",
   tablet: "900px",
   desktop: "1500px",
-};
-export const modalW = {
-  sm: "300px",
-  md: "500px",
-  lg: "700px",
-};
-
-export const formW = {
-  sm: "400px",
-  md: "600px",
-  lg: "800px",
 };
 
 export const colors = {
