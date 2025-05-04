@@ -59,8 +59,9 @@ export const Nav = styled.nav`
   justify-content: flex-end;
   align-items: center;
   gap: ${spaces.space_3};
-  font-size: ${sizes.size_2};
+  font-size: ${sizes.size_1};
   font-weight: ${weights.light};
+  color: ${colors.black};
 `;
 export const NavItem = styled.a`
   text-decoration: none;

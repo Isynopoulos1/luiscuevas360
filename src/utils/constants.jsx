@@ -1,5 +1,5 @@
 export const sizes = {
-  size_1: "8px",
+  size_1: "12px",
   size_2: "16px",
   size_3: "24px",
   size_4: "32px",

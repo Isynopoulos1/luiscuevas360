@@ -74,6 +74,9 @@ export const DescriptionIntro = styled.div`
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
+  @media only screen and (max-width: ${contentW.mobile}) {
+    font-size: ${sizes.size_3};
+  }
 `;
 export const ServicesSection = styled.div`
   width: 100%;

@@ -58,7 +58,7 @@ export const ServiceStyle = styled.div`
   &:hover {
     filter: saturate(1);
     img {
-      transform: scale(1.5);
+      transform: scale(1.2);
     }
     h3 {
       color: white;
