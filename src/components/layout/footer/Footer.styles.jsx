@@ -26,6 +26,7 @@ export const MainContainer = styled.div`
     padding: ${spaces.space_3};
   }
 `;
+
 export const Location = styled.div`
   color: blue;
 `;
@@ -36,5 +37,10 @@ export const Phone = styled.div`
   color: blue;
 `;
 export const Social = styled.div`
-  color: blue;
+  border:1px solid red;
+  width 100%;
+  display: flex;
+`;
+export const Icons = styled.div`
+  width: 100%;
 `;

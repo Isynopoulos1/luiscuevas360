@@ -36,7 +36,7 @@ export const spaces = {
 
 export const weights = {
   regular: 400,
-  bold: 700,
+  bold: 600,
   light: 300,
   ultralight: 200,
 };

@@ -1,33 +1,36 @@
 import styled from "styled-components";
-// import { colors, sizes } from "@styles/constants"
+import {
+  colors,
+  sizes,
+  zindex,
+  spaces,
+  contentW,
+  weights,
+} from "@utils/constants";
 export const MainContainer = styled.div`
   display: flex;
   width: calc(48% - 1px);
   flex-direction: column;
   height: auto;
-  gap: 32px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  @media only screen and (max-width: 900px) {
+  gap: ${spaces.space_4};
+  margin-top: ${spaces.space_2};
+  margin-bottom: ${spaces.space_2};
+  @media only screen and (max-width: ${contentW.tablet}) {
     width: 100%;
-  }
-  @media only screen and (max-width: 750px) {
-  }
-  @media only screen and (max-width: 450px) {
   }
 `;
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: ${spaces.space_1};
 `;
 export const Plan = styled.h1`
-  font-size: 16px;
-  font-weight: 600;
+  font-size: ${sizes.size_2};
+  font-weight: ${weights.bold};
 `;
 export const Description = styled.p`
-  font-size: 16px;
-  font-weight: 300;
+  font-size: ${sizes.size_2};
+  font-weight: ${weights.light};
 `;
 export const ServiceStyle = styled.div`
   position: relative;
@@ -35,24 +38,25 @@ export const ServiceStyle = styled.div`
   overflow: hidden;
   filter: saturate(0);
   transition: all 0.5s ease;
-  border-radius: 8px;
+  border-radius: ${spaces.space_1};
   img {
     width: 100%;
     height: 100%;
     transition: all 0.5s ease;
-    border-radius: 8px;
+    border-radius: ${spaces.space_1};
   }
   h3 {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: ${sizes.size_2};
+    font-weight: ${weights.bold};
     text-align: center;
     top: 50%;
     width: 100%;
-    z-index: 2;
-    color: white;
+    z-index: ${zindex.header};
+    color: ${colors.white};
     transition: all 0.5s ease;
   }
   &:hover {
@@ -61,7 +65,7 @@ export const ServiceStyle = styled.div`
       transform: scale(1.2);
     }
     h3 {
-      color: white;
+      color: ${colors.white};
     }
   }
   @media only screen and (max-width: 900px) {

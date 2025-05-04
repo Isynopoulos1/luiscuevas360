@@ -53,6 +53,7 @@ export const ColumnRight = styled.div`
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: ${spaces.space_1};
   }
   @media only screen and (max-width: ${contentW.mobile}) {
     width: 100%;
