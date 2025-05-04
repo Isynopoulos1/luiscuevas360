@@ -10,9 +10,15 @@ import Whatsapp from "@assets/icons/Whatsapp.jsx";
 import {
   MainContainer,
   ContactSection,
+  Module,
+  DataLoc,
   Location,
+  Adress,
   Recomendations,
+  DataPhone,
   Phone,
+  Number,
+  RecLink,
   Social,
   SectionName,
   Icons,
@@ -25,16 +31,31 @@ function Footer() {
     <MainContainer>
       <SectionName>Contacto</SectionName>
       <ContactSection id="contact">
-        contacto
-        <Whatsapp />
-        <Location>{/* <p>{main.testimonial.1}</p> */}locacion</Location>
+        <Location>
+          <DataLoc>
+            <Module>Locación</Module>
+            <Adress>text</Adress>
+          </DataLoc>
+        </Location>
         <Recomendations>
-          {/* <p>{main.testimonial.1}</p> */}recomendaciones
+          <Module>Recomendaciones</Module>
+          <RecLink>
+            <li>www.ejemplo.com</li>
+            <li>www.ejemplo.com</li>
+            <li>www.ejemplo.com</li>
+          </RecLink>
         </Recomendations>
-        <Phone>{/* <p>{main.testimonial.1}</p> */} telefono</Phone>
+        <Phone>
+          {" "}
+          <Module>Teléfono</Module>
+          <DataPhone>
+            <Whatsapp />
+            <Number>xxx</Number>
+          </DataPhone>
+        </Phone>
         <Social>
           {" "}
-          social
+          <Module>Sígueme</Module>
           <Icons>
             <Youtube />
             <Tiktok />

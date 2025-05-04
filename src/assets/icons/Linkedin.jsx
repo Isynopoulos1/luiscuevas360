@@ -2,7 +2,7 @@ import React from "react";
 
 const Linkedin = ({ color }) => {
   return (
-    <svg fill={color} width="24" height="24" viewBox="0 0 30 30">
+    <svg fill={color} width="20" height="20" viewBox="0 0 30 30">
       <path
         d="M5.25 8.20703C6.49264 8.20703 7.5 7.19967 7.5 5.95703C7.5 4.71439 6.49264 3.70703 5.25 3.70703C4.00736 3.70703 3 4.71439 3 5.95703C3 7.19967 4.00736 8.20703 5.25 8.20703Z"
         fill="black"

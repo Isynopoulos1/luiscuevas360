@@ -7,39 +7,83 @@ import {
   contentW,
   weights,
 } from "@utils/constants";
-export const ContactSection = styled.div`
-  color: blue;
-  scroll-margin-top: 200px;
-  border: 1px solid gray;
-`;
+
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
 `;
 export const MainContainer = styled.div`
-  color: blue;
   max-width: ${contentW.landing};
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  border: 1px solid purple;
   height: auto;
   @media only screen and (max-width: ${contentW.desktop}) {
     padding: ${spaces.space_3};
   }
 `;
-
-export const Location = styled.div`
-  color: blue;
+export const ContactSection = styled.div`
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
 `;
+export const Module = styled.h1`
+  font-size: ${sizes.size_1};
+  font-weight: ${weights.bold};
+`;
+export const Location = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+export const DataLoc = styled.div`
+  display: flex;
+  flex-direction: column;
+  font-size: ${sizes.size_2};
+  height: auto;
+  gap: ${spaces.space_2};
+`;
+
+export const Adress = styled.p`
+  font-size: ${sizes.size_1};
+`;
+
 export const Recomendations = styled.div`
-  color: blue;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: ${spaces.space_2};
+`;
+export const RecLink = styled.div`
+  display: flex;
+  flex-direction: column;
+  & li {
+    font-size: ${sizes.size_1};
+    text-decoration: underline;
+  }
 `;
 export const Phone = styled.div`
-  color: blue;
-`;
-export const Social = styled.div`
-  border:1px solid red;
-  width 100%;
   display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: ${spaces.space_2};
+`;
+export const DataPhone = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const Number = styled.p`
+  font-size: ${sizes.size_1};
+`;
+
+export const Social = styled.div`
+  gap: ${spaces.space_1};
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: ${spaces.space_2};
 `;
 export const Icons = styled.div`
   width: 100%;

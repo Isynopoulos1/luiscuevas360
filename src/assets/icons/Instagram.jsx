@@ -2,7 +2,7 @@ import React from "react";
 
 const Instagram = ({ color }) => {
   return (
-    <svg fill={color} width="24" height="24" viewBox="0 0 30 30">
+    <svg fill={color} width="20" height="20" viewBox="0 0 30 30">
       <path
         d="M17.6515 12.3482C19.116 13.8127 19.116 16.1871 17.6515 17.6515C16.1871 19.116 13.8127 19.116 12.3482 17.6515C10.8838 16.1871 10.8838 13.8127 12.3482 12.3482C13.8127 10.8838 16.1871 10.8838 17.6515 12.3482Z"
         fill="black"
