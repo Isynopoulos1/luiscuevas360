@@ -26,7 +26,10 @@ export const MainContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 ${spaces.space_3};
+
+  @media only screen and (max-width: ${contentW.desktop}) {
+    padding: 0 ${spaces.space_3};
+  }
 `;
 
 export const HeaderWrapper = styled.div`

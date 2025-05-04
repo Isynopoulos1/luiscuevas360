@@ -18,25 +18,14 @@ export const MainContainer = styled.div`
     padding: 104px 24px 24px;
   }
 `;
-export const ContactSection = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const PhilosophySection = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const AboutSection = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
 //INTRO SECTION
 export const IntroSection = styled.div`
   display: flex;
   width: 100%;
   height: auto;
   display: flex;
-  gap: ${spaces.space_2};
+  align-items: center;
+  gap: ${spaces.space_4};
 
   @media only screen and (max-width: ${contentW.mobile}) {
     flex-direction: column;
@@ -60,7 +49,11 @@ export const ColumnLeft = styled.div`
 export const ColumnRight = styled.div`
   width: 40%;
   height: auto;
-  border: 1px solid orange;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
   @media only screen and (max-width: ${contentW.mobile}) {
     width: 100%;
   }
@@ -91,27 +84,12 @@ export const ServicesSection = styled.div`
   height: auto;
   scroll-margin-top: 200px;
 `;
-export const PlatformsSection = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const Testimonials = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const Location = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const Recomendations = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const Contact = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
-export const Social = styled.div`
-  height: 200px;
-  scroll-margin-top: 200px;
-`;
+export const ContactSection = styled.div``;
+export const PhilosophySection = styled.div``;
+export const AboutSection = styled.div``;
+export const PlatformsSection = styled.div``;
+export const Testimonials = styled.div``;
+export const Location = styled.div``;
+export const Recomendations = styled.div``;
+export const Contact = styled.div``;
+export const Social = styled.div``;

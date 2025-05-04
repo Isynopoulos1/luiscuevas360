@@ -48,7 +48,12 @@ function Main() {
               <Button />
             </DescriptionIntro>
           </ColumnLeft>
-          <ColumnRight>foto</ColumnRight>
+          <ColumnRight>
+            <img
+              src="https://ik.imagekit.io/ppayaz/iselalarcon/luis-cuevas-360/intro/intro-photo-square.png?updatedAt=1746352848599"
+              alt="Foto intro"
+            />
+          </ColumnRight>
         </IntroSection>
         <SectionName>Sobre Mi</SectionName>
         <AboutSection id="about">about</AboutSection>
