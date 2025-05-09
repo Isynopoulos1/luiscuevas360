@@ -2,28 +2,28 @@
 
 export const services = [
   {
-    href: "https://ik.imagekit.io/ppayaz/iselalarcon/luis-cuevas-360/planes/retiro-hor.png?updatedAt=1746090175058",
+    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/retiro.png?updatedAt=1746813552772",
     title: "Planes de Retiro (PPRs)",
     plan: "Asegura tu futuro",
     description:
       "Construye un ingreso mensual para tu retiro con la mejor estrategia fiscal. Te acompañamos cada año para optimizar tu ahorro y asegurar tus metas.",
   },
   {
-    href: "https://ik.imagekit.io/ppayaz/iselalarcon/luis-cuevas-360/planes/educacion-hor.png?updatedAt=17460900674733",
+    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/educacion.png?updatedAt=1746813566609",
     title: "Planes de Educación",
     plan: "Regala a tus hijos un futuro brillante",
     description:
       "Planes de ahorro para su universidad, personalizados y con rendimientos garantizados por encima de la inflación.",
   },
   {
-    href: "https://ik.imagekit.io/ppayaz/iselalarcon/luis-cuevas-360/planes/gastos-med-hor.png?updatedAt=1746090104273",
+    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/gastos-med.png?updatedAt=1746813535131",
     title: "Seguros de Gastos Médicos Mayores",
     plan: "Tu tranquilidad es primero",
     description:
       "Evita el estrés financiero que provocan los gastos médicos. Te ayudamos a elegir el mejor seguro y te acompañamos en todo el proceso cuando necesites usarlo. ",
   },
   {
-    href: "https://ik.imagekit.io/ppayaz/iselalarcon/luis-cuevas-360/planes/empresas-hor.png?updatedAt=1746090087847",
+    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/empresas.png?updatedAt=1746813578516",
     title: "Planes de Ahorro Deducibles para Empresarios",
     plan: "Protege tu empresa y optimiza tus impuestos",
     description:

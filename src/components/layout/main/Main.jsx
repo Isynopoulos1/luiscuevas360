@@ -2,6 +2,7 @@
 import Card from "@elements/card/Card.jsx";
 import Button from "@elements/button/Button.jsx";
 import Logo from "@elements/logo/Logo.jsx";
+import About from "@elements/about/About.jsx";
 // IMPORT STYLING
 import {
   MainContainer,
@@ -50,13 +51,14 @@ function Main() {
           </ColumnLeft>
           <ColumnRight>
             <img
-              src="https://ik.imagekit.io/ppayaz/iselalarcon/luis-cuevas-360/intro/intro-photo-square.png?updatedAt=1746352848599"
+              src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/intro/intro-photo-square?updatedAt=1746813292241"
               alt="Foto intro"
             />
           </ColumnRight>
         </IntroSection>
-        <SectionName>Sobre Mi</SectionName>
-        <AboutSection id="about">about</AboutSection>
+        <AboutSection id="about">
+          <About />
+        </AboutSection>
         <SectionName>Filosofia</SectionName>
         <PhilosophySection id="philosophy">filosofia</PhilosophySection>
         <SectionName>Services</SectionName>

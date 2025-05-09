@@ -90,7 +90,9 @@ export const ServicesSection = styled.div`
 `;
 export const ContactSection = styled.div``;
 export const PhilosophySection = styled.div``;
-export const AboutSection = styled.div``;
+export const AboutSection = styled.div`
+  height: auto;
+`;
 export const PlatformsSection = styled.div``;
 export const Testimonials = styled.div``;
 export const Location = styled.div``;
