@@ -1,70 +1,17 @@
 import React from "react";
 //IMPORT COMPONENTS
-import Linkedin from "@assets/icons/Linkedin.jsx";
-import Instagram from "@assets/icons/Instagram.jsx";
-import Youtube from "@assets/icons/Youtube.jsx";
-import Tiktok from "@assets/icons/Tiktok.jsx";
-import Spotify from "@assets/icons/Spotify.jsx";
-import Whatsapp from "@assets/icons/Whatsapp.jsx";
+import Contact from "@elements/contact/Contact.jsx";
+
 // IMPORT STYLING
-import {
-  MainContainer,
-  ContactSection,
-  Module,
-  DataLoc,
-  Location,
-  Adress,
-  Recomendations,
-  DataPhone,
-  Phone,
-  Number,
-  RecLink,
-  Social,
-  SectionName,
-  Icons,
-} from "./Footer.styles";
+import { MainContainer } from "./Footer.styles";
 // IMPORT DATA
+
 //copies
 
 function Footer() {
   return (
     <MainContainer>
-      <SectionName>Contacto</SectionName>
-      <ContactSection id="contact">
-        <Location>
-          <DataLoc>
-            <Module>Locación</Module>
-            <Adress>text</Adress>
-          </DataLoc>
-        </Location>
-        <Recomendations>
-          <Module>Recomendaciones</Module>
-          <RecLink>
-            <li>www.ejemplo.com</li>
-            <li>www.ejemplo.com</li>
-            <li>www.ejemplo.com</li>
-          </RecLink>
-        </Recomendations>
-        <Phone>
-          {" "}
-          <Module>Teléfono</Module>
-          <DataPhone>
-            <Whatsapp />
-            <Number>xxx</Number>
-          </DataPhone>
-        </Phone>
-        <Social>
-          {" "}
-          <Module>Sígueme</Module>
-          <Icons>
-            <Youtube />
-            <Tiktok />
-            <Linkedin />
-            <Instagram />
-            <Spotify />
-          </Icons>
-        </Social>
-      </ContactSection>
+      <Contact />
     </MainContainer>
   );
 }

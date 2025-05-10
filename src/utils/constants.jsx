@@ -21,6 +21,11 @@ export const sizes = {
   size_20: "160px",
 };
 
+export const separators = {
+  vertical: "32px",
+  horizontal: "32px",
+};
+
 export const spaces = {
   space_1: "8px",
   space_2: "16px",

@@ -1,22 +1,19 @@
 //IMPORT COMPONENTS
 import Card from "@elements/card/Card.jsx";
 import Button from "@elements/button/Button.jsx";
-import Logo from "@elements/logo/Logo.jsx";
 import About from "@elements/about/About.jsx";
+import Platforms from "@elements/platforms/Platforms.jsx";
+import Intro from "@elements/intro/Intro.jsx";
+import Philosophy from "@elements/philosophy/Philosophy.jsx";
 // IMPORT STYLING
 import {
   MainContainer,
   AboutSection,
   IntroSection,
-  ColumnLeft,
-  ColumnRight,
   PhilosophySection,
   ServicesSection,
   PlatformsSection,
-  Testimonials,
   SectionName,
-  LogoContainer,
-  DescriptionIntro,
 } from "@layout/main/Main.styles";
 
 // IMPORT DATA
@@ -40,37 +37,21 @@ function Main() {
     <main>
       <MainContainer>
         <IntroSection id="intro">
-          <ColumnLeft>
-            <LogoContainer>
-              <Logo />
-            </LogoContainer>
-            <DescriptionIntro>
-              <p>{texts.intro.description}</p>
-              <Button />
-            </DescriptionIntro>
-          </ColumnLeft>
-          <ColumnRight>
-            <img
-              src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/intro/intro-photo-square?updatedAt=1746813292241"
-              alt="Foto intro"
-            />
-          </ColumnRight>
+          <Intro />
         </IntroSection>
         <AboutSection id="about">
           <About />
         </AboutSection>
-        <SectionName>Filosofia</SectionName>
-        <PhilosophySection id="philosophy">filosofia</PhilosophySection>
+        <PhilosophySection id="philosophy">
+          <Philosophy />
+        </PhilosophySection>
         <SectionName>Services</SectionName>
         <ServicesSection id="services">
           {renderServices()}
           {/* <Card /> */}
         </ServicesSection>
-        <SectionName>Plataformas</SectionName>
         <PlatformsSection id="platforms">
-          plataformas
-          <SectionName>Testimoniales</SectionName>
-          <Testimonials>testimoniales</Testimonials>
+          <Platforms />
         </PlatformsSection>
       </MainContainer>
     </main>
