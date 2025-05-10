@@ -25,6 +25,7 @@ export const Content = styled.div`
 export const Plan = styled.h1`
   font-size: ${sizes.size_2};
   font-weight: ${weights.bold};
+  padding-top: ${spaces.space_2};
 `;
 export const Description = styled.p`
   font-size: ${sizes.size_2};
@@ -53,7 +54,7 @@ export const ServiceStyle = styled.div`
     text-align: center;
     top: 50%;
     width: 100%;
-    z-index: ${zindex.header};
+    z-index: ${zindex.base};
     color: ${colors.white};
     transition: all 0.5s ease;
   }

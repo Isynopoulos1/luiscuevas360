@@ -1,18 +1,21 @@
 import styled from "styled-components";
-import {
-  colors,
-  sizes,
-  zindex,
-  spaces,
-  contentW,
-  weights,
-} from "@utils/constants";
+import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 
 export const MainContainer = styled.div`
   display: flex;
-  width: 100%;
   flex-direction: column;
+  gap: ${spaces.space_1};
+  width: 100%;
   min-height: 80vh;
+`;
+export const CardsWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  @media only screen and (max-width: ${contentW.mobile}) {
+    width: 100%;
+  }
 `;
 
 export const SectionName = styled.p`

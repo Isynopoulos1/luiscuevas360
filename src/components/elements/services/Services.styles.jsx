@@ -1,19 +1,13 @@
 import styled from "styled-components";
-import {
-  colors,
-  sizes,
-  zindex,
-  spaces,
-  contentW,
-  weights,
-} from "@utils/constants";
+import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 
 export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: ${spaces.space_4};
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 `;
 
 export const ServiceWrapper = styled.div`
@@ -33,5 +27,5 @@ export const SectionName = styled.p`
 
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
-    padding-top: ${spaces.space_2}; // 
+    padding-top: ${spaces.space_2}; 
 `;

@@ -1,12 +1,5 @@
 import styled from "styled-components";
-import {
-  colors,
-  sizes,
-  zindex,
-  spaces,
-  contentW,
-  weights,
-} from "@utils/constants";
+import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 export const MainContainer = styled.div`
   position: relative;
   max-width: ${contentW.landing};
