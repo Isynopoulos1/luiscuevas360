@@ -1,10 +1,12 @@
 import React from "react";
-import { CardWrapper, SocialName, FollowButton } from "./SocialCard.styles";
+import { CardWrapper, FollowButton } from "./SocialCard.styles";
 
-const SocialCard = ({ name, onClick, background }) => {
+const SocialCard = ({ label, onClick, background }) => {
   return (
-    <CardWrapper style={{ backgroundImage: `url(${background})` }}>
-      <SocialName>{name}</SocialName>
+    <CardWrapper
+      label={label}
+      style={{ backgroundImage: `url(${background})` }}
+    >
       <FollowButton onClick={onClick}>follow</FollowButton>
     </CardWrapper>
   );

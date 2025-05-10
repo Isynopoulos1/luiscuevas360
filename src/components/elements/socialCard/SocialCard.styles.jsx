@@ -11,22 +11,17 @@ export const CardWrapper = styled.div`
   border-radius: ${spaces.space_1};
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-`;
-
-export const SocialName = styled.h3`
-  font-size: ${sizes.size_2};
-  font-weight: ${weights.bold};
-  color: ${colors.black};
 `;
 
 export const FollowButton = styled.button`
   padding: ${spaces.space_1} ${spaces.space_3};
-  border: 1px solid ${colors.default};
+  border: 1px solid ${colors.white};
   border-radius: 20px;
-  color: ${colors.default};
+  color: ${colors.white};
   background-color: transparent;
+  margin-bottom: ${spaces.space_2};
   cursor: pointer;
   transition: 0.3s;
 
