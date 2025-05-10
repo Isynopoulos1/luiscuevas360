@@ -7,14 +7,12 @@ import {
   contentW,
   weights,
 } from "@utils/constants";
-export const MainContainer = styled.div`
+export const CardWrapper = styled.div`
   display: flex;
-  width: calc(48% - 1px);
+  width: calc(50% - 16px);
   flex-direction: column;
   height: auto;
-  gap: ${spaces.space_4};
-  margin-top: ${spaces.space_2};
-  margin-bottom: ${spaces.space_2};
+  padding-bottom: 32px;
   @media only screen and (max-width: ${contentW.tablet}) {
     width: 100%;
   }

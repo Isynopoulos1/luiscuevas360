@@ -11,6 +11,12 @@ import {
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
+  padding-top: ${spaces.space_4}; //
+
+  @media only screen and (max-width: ${contentW.mobile}) {
+    font-size: ${sizes.size_3};
+    padding-top: ${spaces.space_2};
+  }
 `;
 export const MainContainer = styled.div`
   max-width: ${contentW.landing};

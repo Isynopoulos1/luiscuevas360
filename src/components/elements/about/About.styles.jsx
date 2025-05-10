@@ -13,13 +13,13 @@ export const MainContainer = styled.div`
   height: auto;
 `;
 export const SectionName = styled.p`
-  width: 100%;
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
   padding-top: ${spaces.space_4};
+
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
-    padding-top: ${spaces.space_1};
+    padding-top: ${spaces.space_2};
   }
 `;
 export const ColumnsWrapper = styled.div`
@@ -28,12 +28,16 @@ export const ColumnsWrapper = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  gap: ${spaces.space_2};
+  gap: ${spaces.space_4};
+  @media only screen and (max-width: ${contentW.mobile}) {
+    flex-direction: column;
+  }
 `;
 export const ColumnLeft = styled.div`
+  flex: 1 1 calc(50% - 16px);
   display: flex;
   flex-direction: column;
-  width: calc(50% - 8px);
+
   @media only screen and (max-width: ${contentW.mobile}) {
     width: 100%;
   }
@@ -41,7 +45,7 @@ export const ColumnLeft = styled.div`
 export const ColumnRight = styled.div`
   display: flex;
   flex-direction: column;
-  width: calc(50% - 8px);
+  flex: 1 1 calc(50% - 16px);
   justify-content: space-between;
   @media only screen and (max-width: ${contentW.mobile}) {
     width: 100%;
@@ -71,10 +75,10 @@ export const HobbiesPhotos = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  gap: ${spaces.space_2};
+  gap: ${spaces.space_4};
 `;
 export const RightBox = styled.div`
-  width: calc(50% - 8px);
+  flex: 1 1 calc(50% - 16px);
   height: auto;
   img {
     width: 100%;
@@ -84,7 +88,7 @@ export const RightBox = styled.div`
   }
 `;
 export const LeftBox = styled.div`
-  width: calc(50% - 8px);
+  flex: 1 1 calc(50% - 16px);
   height: auto;
   img {
     width: 100%;

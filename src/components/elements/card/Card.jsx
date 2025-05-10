@@ -3,7 +3,7 @@ import React from "react";
 // IMPORT STYLING
 import {
   ServiceStyle,
-  MainContainer,
+  CardWrapper,
   Plan,
   Description,
   Content,
@@ -11,7 +11,7 @@ import {
 
 const Card = ({ title, img, description, plan }) => {
   return (
-    <MainContainer>
+    <CardWrapper>
       <ServiceStyle>
         <img src={img} alt={title} />
         <h3>{title}</h3>
@@ -20,7 +20,7 @@ const Card = ({ title, img, description, plan }) => {
         <Plan>{plan}</Plan>
         <Description>{description}</Description>
       </Content>
-    </MainContainer>
+    </CardWrapper>
   );
 };
 

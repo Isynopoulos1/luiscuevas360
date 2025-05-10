@@ -9,22 +9,28 @@ import {
 } from "@utils/constants";
 
 export const MainContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: ${spaces.space_4};
   width: 100%;
 `;
 
 export const ServiceWrapper = styled.div`
-  width: 100%;
-  gap: ${spaces.space_4};
-  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  height: auto;
-  scroll-margin-top: 200px;
+  justify-content: space-between;
+  gap: ${spaces.space_2};
+  width: 100%;
+  @media only screen and (max-width: ${contentW.mobile}) {
+    width: 100%;
+  }
 `;
 export const SectionName = styled.p`
-  font-size: ${sizes.size_5};
+ font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
+  padding-top: ${spaces.space_4}; // 
+
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
-  }
+    padding-top: ${spaces.space_2}; // 
 `;
