@@ -45,10 +45,10 @@ function Header() {
     if (section) {
       section.scrollIntoView({
         behavior: "smooth",
-        block: "start",
+        block: "end",
         inline: "end",
       });
-      setToggle(false); // Cierra el menú tras click
+      setToggle(false);
     }
   };
   //DATA

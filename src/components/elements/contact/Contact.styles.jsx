@@ -8,24 +8,24 @@ import {
   weights,
 } from "@utils/constants";
 
-export const SectionName = styled.p`
-  font-size: ${sizes.size_5};
-  font-weight: ${weights.ultralight};
-  padding-top: ${spaces.space_4}; //
-
-  @media only screen and (max-width: ${contentW.mobile}) {
-    font-size: ${sizes.size_3};
-    padding-top: ${spaces.space_2};
-  }
-`;
 export const MainContainer = styled.div`
   max-width: ${contentW.landing};
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: auto;
+  height: 30vh;
   @media only screen and (max-width: ${contentW.desktop}) {
     padding: ${spaces.space_3};
+  }
+`;
+
+export const SectionName = styled.p`
+  font-size: ${sizes.size_5};
+  font-weight: ${weights.ultralight};
+
+  @media only screen and (max-width: ${contentW.mobile}) {
+    font-size: ${sizes.size_3};
+    padding-top: ${spaces.space_2};
   }
 `;
 export const ContactSection = styled.div`
@@ -97,7 +97,7 @@ export const Icons = styled.div`
 `;
 
 export const Copyright = styled.div`
-  font-size: 8px;
+  font-size: ${sizes.size_copyright};
   color: ${colors.black};
   font-family: "Roboto", sans-serif;
   font-weight: 300;

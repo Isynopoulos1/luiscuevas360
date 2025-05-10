@@ -1,5 +1,6 @@
 export const sizes = {
-  size_1: "12px",
+  size_copyright: "12px",
+  size_1: "14px",
   size_2: "16px",
   size_3: "24px",
   size_4: "32px",
@@ -19,11 +20,6 @@ export const sizes = {
   size_18: "144px",
   size_19: "152px",
   size_20: "160px",
-};
-
-export const separators = {
-  vertical: "32px",
-  horizontal: "32px",
 };
 
 export const spaces = {
@@ -62,8 +58,6 @@ export const contentW = {
 
 export const colors = {
   default: "#9359fc",
-  hover: "#5c24c5",
-  stroke: "#7f44ee",
   black: "#000000",
   white: "#ffff",
   turquesa: "#61BFC5",

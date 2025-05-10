@@ -22,7 +22,7 @@ function Services() {
     )) ?? [];
   //MAIN RENDER
   return (
-    <section>
+    <section id="services">
       <MainContainer>
         <SectionName>Services</SectionName>
         <ServiceWrapper>{renderServices()}</ServiceWrapper>

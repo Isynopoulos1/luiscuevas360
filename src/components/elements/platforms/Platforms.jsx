@@ -9,8 +9,7 @@ function Platforms() {
     <section id="platforms">
       <MainContainer>
         <SectionName>Plataformas</SectionName>
-        <SectionName>Testimoniales</SectionName>
-        <Testimonials></Testimonials>
+        <Testimonials>hola</Testimonials>
       </MainContainer>
     </section>
   );

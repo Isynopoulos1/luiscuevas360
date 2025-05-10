@@ -13,6 +13,7 @@ export const MainContainer = styled.div`
   flex-direction: column;
   gap: ${spaces.space_4};
   width: 100%;
+  height: 100vh;
 `;
 
 export const ServiceWrapper = styled.div`
@@ -28,7 +29,7 @@ export const ServiceWrapper = styled.div`
 export const SectionName = styled.p`
  font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
-  padding-top: ${spaces.space_4}; // 
+ 
 
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};

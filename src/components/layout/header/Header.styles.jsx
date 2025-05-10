@@ -38,7 +38,7 @@ export const HeaderWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
-//nuevo estilo posicional
+
 export const MobileNav = styled.nav`
   position: fixed;
   top: 0;
@@ -69,6 +69,6 @@ export const NavItem = styled.a`
   transition: color 0.2s ease-in-out;
 
   &:hover {
-    color: ${colors.hover};
+    color: ${colors.default};
   }
 `;

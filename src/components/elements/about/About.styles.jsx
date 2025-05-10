@@ -10,12 +10,11 @@ import {
 
 export const MainContainer = styled.div`
   width: 100%;
-  height: auto;
+  height: 80vh;
 `;
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
-  padding-top: ${spaces.space_4};
 
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
@@ -64,9 +63,11 @@ export const Photo = styled.div`
 `;
 export const ProfesionalDescription = styled.p`
   font-size: ${sizes.size_2};
+  font-weight: ${weights.light};
 `;
 export const HobbiesDescription = styled.p`
   font-size: ${sizes.size_2};
+  font-weight: ${weights.light};
 `;
 export const HobbiesPhotos = styled.div`
   width: 100%;

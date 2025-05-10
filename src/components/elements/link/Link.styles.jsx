@@ -14,6 +14,6 @@ export const StyledLink = styled.a`
   transition: background-color 0.3s ease;
   cursor: pointer;
   &:hover {
-    color: ${colors.hover};
+    color: ${colors.default};
   }
 `;
