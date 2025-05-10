@@ -22,23 +22,7 @@ export const MainContainer = styled.div`
 export const IntroSection = styled.div`
   display: flex;
 `;
-
-export const SectionName = styled.p`
-  font-size: ${sizes.size_5};
-  font-weight: ${weights.ultralight};
-  @media only screen and (max-width: ${contentW.mobile}) {
-    font-size: ${sizes.size_3};
-  }
-`;
-export const ServicesSection = styled.div`
-  width: 100%;
-  gap: ${spaces.space_4};
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
-  height: auto;
-  scroll-margin-top: 200px;
-`;
+export const ServicesSection = styled.div``;
 export const ContactSection = styled.div``;
 export const PhilosophySection = styled.div``;
 export const AboutSection = styled.div`
