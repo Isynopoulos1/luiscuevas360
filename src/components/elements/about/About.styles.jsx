@@ -3,15 +3,17 @@ import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 
 export const MainContainer = styled.div`
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
 `;
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
-
+  padding-bottom: ${spaces.space_4};
+  border: 1px solid purple;
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
-    padding-top: ${spaces.space_2};
+    padding-bottom: ${spaces.space_2};
+    border: 1px solid orange;
   }
 `;
 export const ColumnsWrapper = styled.div`
@@ -57,6 +59,8 @@ export const Photo = styled.div`
 export const ProfesionalDescription = styled.p`
   font-size: ${sizes.size_2};
   font-weight: ${weights.light};
+  strong {
+    font-weight: ${weights.bold}; 
 `;
 export const HobbiesDescription = styled.p`
   font-size: ${sizes.size_2};

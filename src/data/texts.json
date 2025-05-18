@@ -1,6 +1,21 @@
 {
   "intro": {
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+    "description": "Construir un patrimonio es cuestión de hábitos, no de suerte. Mi enfoque une estrategia financiera y economía conductual para ayudarte a tomar mejores decisiones y lograr tus metas con constancia y claridad. Descubre cómo un plan bien pensado puede adaptarse a tu vida real."
+  },
+  "about": {
+    "content1": [
+      "Construir un patrimonio es como construir un hábito: no basta con tener un buen plan, hace falta constancia. ",
+      {
+        "bold": "Soy asesor financiero con más de 10 años de experiencia, miembro de MDRT Court of the Table y creador de Libros y Dinero"
+      },
+      ", uno de los podcasts más escuchados en México y Latinoamérica. Mi trabajo es ayudarte a tomar mejores decisiones financieras y construir un plan que funcione en la vida real, no solo en papel. "
+    ],
+    "content2": "Cuando no estoy hablando de finanzas, me encontrarás entrenando calistenia, siguiendo un partido de hockey o disfrutando tiempo en familia. Para mí, una vida bien planeada también deja espacio para lo que te mueve y te hace feliz."
+  },
+  "philosophy": {
+    "content": [
+      "Creo que las finanzas personales no se tratan solo de números, sino de decisiones diarias, emociones y objetivos reales. Por eso combino la estrategia financiera con los principios de la economía conductual: para ayudarte a evitar los errores comunes, aprovechar tu propio comportamiento a tu favor y mantener el rumbo incluso cuando las circunstancias cambian. Mi trabajo es acompañarte de forma cercana y constante, con un plan realista que se adapte a tu vida, no al revés. Porque construir un patrimonio no es un evento, es un proceso."
+    ]
   },
   "testimonials": [
     {

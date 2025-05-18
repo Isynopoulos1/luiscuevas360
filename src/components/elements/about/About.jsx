@@ -13,6 +13,9 @@ import {
   LeftBox,
 } from "@elements/about/About.styles";
 
+// IMPORT DATA
+import texts from "@data/texts.json";
+
 function About() {
   return (
     <section id="about">
@@ -29,13 +32,15 @@ function About() {
           </ColumnLeft>
           <ColumnRight>
             <ProfesionalDescription>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur
+              {texts.about.content1.map((part, i) =>
+                typeof part === "string" ? (
+                  part
+                ) : (
+                  <strong key={i}>{part.bold}</strong>
+                )
+              )}
             </ProfesionalDescription>
+
             <HobbiesPhotos>
               <RightBox>
                 {" "}
@@ -51,12 +56,7 @@ function About() {
                 />
               </LeftBox>
             </HobbiesPhotos>
-            <HobbiesDescription>
-              {" "}
-              But I must explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
-              account of the system,
-            </HobbiesDescription>
+            <HobbiesDescription> {texts.about.content2}</HobbiesDescription>
           </ColumnRight>
         </ColumnsWrapper>
       </MainContainer>

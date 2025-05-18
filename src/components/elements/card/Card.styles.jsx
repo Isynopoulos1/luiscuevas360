@@ -12,7 +12,6 @@ export const CardWrapper = styled.div`
   width: calc(50% - 16px);
   flex-direction: column;
   height: auto;
-  padding-bottom: 32px;
   @media only screen and (max-width: ${contentW.tablet}) {
     width: 100%;
   }

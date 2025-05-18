@@ -4,7 +4,6 @@ import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: ${spaces.space_4};
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -23,9 +22,10 @@ export const ServiceWrapper = styled.div`
 export const SectionName = styled.p`
  font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
- 
-
+  padding-bottom: ${spaces.space_4};
+  border: 1px solid purple;
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
-    padding-top: ${spaces.space_2}; 
+    border: 1px solid orange;
+    padding-bottom: ${spaces.space_2}; 
 `;

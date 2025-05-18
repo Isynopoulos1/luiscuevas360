@@ -12,7 +12,7 @@ export const TestimonialWrapper = styled.div`
   display: flex;
   width: 350px;
   height: auto;
-  padding: ${spaces.space_2};
+  padding-bottom: ${spaces.space_2};
   gap: ${spaces.space_1};
   flex-direction: column;
   background-color: ${colors.white};
