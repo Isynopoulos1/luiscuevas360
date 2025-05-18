@@ -3,9 +3,15 @@ import {
   SectionName,
   Testimonials,
   CardsWrapper,
+  TestimonialWrapper,
 } from "@elements/platforms/Platforms.styles";
 
+//IMPORT COMPONENTS
 import SocialCard from "@elements/socialCard/SocialCard.jsx";
+import Testimonial from "@elements/testimonial/Testimonial.jsx";
+//IMPORT DATA
+import texts from "@data/texts.json";
+const testimonials = texts.testimonials;
 
 function Platforms() {
   return (
@@ -57,6 +63,11 @@ function Platforms() {
         </CardsWrapper>
         <Testimonials>
           <SectionName>Testimoniales</SectionName>
+          <TestimonialWrapper>
+            {testimonials.map((t, i) => (
+              <Testimonial key={i} comment={t.comment} author={t.author} />
+            ))}
+          </TestimonialWrapper>
         </Testimonials>
       </MainContainer>
     </section>

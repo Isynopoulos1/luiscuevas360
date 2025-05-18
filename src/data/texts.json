@@ -1,5 +1,23 @@
 {
   "intro": {
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  }
+  },
+  "testimonials": [
+    {
+      "comment": "Excelente atención y servicio personalizado.",
+      "author": "Laura Méndez"
+    },
+    {
+      "comment": "Muy profesional y claro en sus explicaciones.",
+      "author": "Carlos Gómez"
+    },
+    {
+      "comment": "Me ayudó a tomar decisiones financieras más seguras.",
+      "author": "Ana Ruiz"
+    },
+    {
+      "comment": "Me ayudó a tomar decisiones financieras más seguras.",
+      "author": "Anaid Jiménez"
+    }
+  ]
 }
