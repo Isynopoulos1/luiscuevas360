@@ -16,14 +16,20 @@ export const TestimonialWrapper = styled.div`
   gap: ${spaces.space_1};
   flex-direction: column;
   background-color: ${colors.white};
-  @media only screen and (max-width: ${contentW.tablet}) {
+  @media only screen and (max-width: ${contentW.mobile}) {
     width: 100%;
+    text-align: center;
+    flex-direction: column;
   }
 `;
 export const Ranking = styled.div`
   width: 100%;
   display: flex;
   gap: 4px;
+  @media only screen and (max-width: ${contentW.mobile}) {
+    align-items: center;
+    justify-content: center;
+  }
 `;
 export const StarIcon = styled.span`
   font-size: 18px;

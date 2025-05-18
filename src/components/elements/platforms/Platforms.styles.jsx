@@ -31,8 +31,16 @@ export const SectionName = styled.p`
 
 export const Testimonials = styled.div`
   width: 100%;
+  @media only screen and (max-width: ${contentW.mobile}) {
+    text-align: center;
+  }
 `;
 export const TestimonialWrapper = styled.div`
   display: flex;
   width: 100%;
+  @media only screen and (max-width: ${contentW.mobile}) {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
 `;
