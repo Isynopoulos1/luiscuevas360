@@ -43,6 +43,7 @@ export const Module = styled.h1`
 export const Location = styled.div`
   display: flex;
   flex-direction: column;
+  line-height: 1.7;
 `;
 export const DataLoc = styled.div`
   display: flex;
@@ -60,7 +61,7 @@ export const Recomendations = styled.div`
   display: flex;
   flex-direction: column;
   height: auto;
-  gap: ${spaces.space_2};
+  line-height: 1.7;
 `;
 export const RecLink = styled.div`
   display: flex;
@@ -94,6 +95,15 @@ export const Social = styled.div`
 `;
 export const Icons = styled.div`
   width: 100%;
+  svg {
+    transition: transform 0.1s ease, fill 0.1s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
+      color: ${colors.default};
+    }
+  }
 `;
 
 export const Copyright = styled.div`

@@ -39,6 +39,7 @@ export const StarIcon = styled.span`
 export const Comment = styled.p`
   font-size: ${sizes.size_2};
   color: ${colors.black};
+  line-height: 1.7;
 `;
 export const Author = styled.p`
   font-size: ${sizes.size_1};

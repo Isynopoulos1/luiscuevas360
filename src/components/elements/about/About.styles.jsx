@@ -59,12 +59,14 @@ export const Photo = styled.div`
 export const ProfesionalDescription = styled.p`
   font-size: ${sizes.size_2};
   font-weight: ${weights.light};
+  line-height: 1.7;
   strong {
     font-weight: ${weights.bold}; 
 `;
 export const HobbiesDescription = styled.p`
   font-size: ${sizes.size_2};
   font-weight: ${weights.light};
+  line-height: 1.7;
 `;
 export const HobbiesPhotos = styled.div`
   width: 100%;

@@ -50,8 +50,14 @@ function Contact() {
           <Phone>
             <Module>Teléfono</Module>
             <DataPhone>
-              <Whatsapp />
-              <Number>xxx</Number>
+              <a
+                href="https://wa.me/525540908318"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Whatsapp />
+              </a>
+              <Number>+52 5540908318</Number>
             </DataPhone>
           </Phone>
           <Social>

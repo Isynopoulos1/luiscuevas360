@@ -21,6 +21,7 @@ export const SectionName = styled.p`
 export const Content = styled.p`
   font-size: ${sizes.size_2};
   font-weight: ${weights.light};
+  line-height: 1.7;
 `;
 export const VideoSection = styled.video`
   width: 100%;

@@ -48,6 +48,7 @@ export const ColumnRight = styled.div`
 export const DescriptionIntro = styled.div`
   display: flex;
   width: 50%;
+  line-height: 1.7;
   gap: ${spaces.space_4};
   flex-direction: column;
   font-weight: ${weights.light};
