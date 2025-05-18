@@ -76,11 +76,13 @@ export const Phone = styled.div`
   flex-direction: column;
   height: auto;
   gap: ${spaces.space_2};
+  cursor: pointer;
 `;
 export const DataPhone = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;
 export const Number = styled.p`
   font-size: ${sizes.size_1};
