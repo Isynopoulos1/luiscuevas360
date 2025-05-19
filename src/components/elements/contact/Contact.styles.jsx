@@ -98,6 +98,7 @@ export const Social = styled.div`
 export const Icons = styled.div`
   width: 100%;
   svg {
+    color: ${colors.black};
     transition: transform 0.1s ease, fill 0.1s ease;
     cursor: pointer;
 

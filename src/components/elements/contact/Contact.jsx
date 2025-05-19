@@ -63,11 +63,41 @@ function Contact() {
           <Social>
             <Module>Sígueme</Module>
             <Icons>
-              <Youtube />
-              <Tiktok />
-              <Linkedin />
-              <Instagram />
-              <Spotify />
+              <a
+                href="https://www.youtube.com/@luiscuevas3603"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Youtube />
+              </a>
+              <a
+                href="https://www.tiktok.com/@luigicaves"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Tiktok />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/luis-cuevas-3a533a69/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin />
+              </a>
+              <a
+                href="https://www.instagram.com/luiscuevas360"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram />
+              </a>
+              <a
+                href="https://open.spotify.com/show/1yUfLj4f0KAWrzRbjJeItK"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Spotify />
+              </a>
             </Icons>
           </Social>
         </ContactSection>

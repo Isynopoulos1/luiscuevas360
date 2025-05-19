@@ -15,6 +15,12 @@ import Button from "@elements/button/Button.jsx";
 import texts from "@data/texts.json";
 
 function Intro() {
+  const scrollToPhilosophy = () => {
+    const section = document.getElementById("philosophy");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   return (
     <section id="intro">
       <MainContainer>
@@ -24,7 +30,7 @@ function Intro() {
           </LogoContainer>
           <DescriptionIntro>
             <p>{texts.intro.description}</p>
-            <Button />
+            <Button onClick={scrollToPhilosophy} />
           </DescriptionIntro>
         </ColumnLeft>
         <ColumnRight>
