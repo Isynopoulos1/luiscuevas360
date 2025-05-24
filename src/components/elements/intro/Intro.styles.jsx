@@ -47,7 +47,7 @@ export const ColumnRight = styled.div`
 `;
 export const DescriptionIntro = styled.div`
   display: flex;
-  width: 50%;
+  width: 100%;
   line-height: 1.7;
   gap: ${spaces.space_4};
   flex-direction: column;
