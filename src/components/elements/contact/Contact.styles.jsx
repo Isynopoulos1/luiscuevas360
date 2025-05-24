@@ -15,12 +15,10 @@ export const MainContainer = styled.div`
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
-  border: 1px solid purple;
   padding-bottom: ${spaces.space_4};
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
     text-align: center;
-    border: 1px solid orange;
     padding-bottom: ${spaces.space_2};
   }
 `;

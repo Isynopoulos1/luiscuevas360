@@ -67,6 +67,8 @@ export const NavItem = styled.a`
   text-decoration: none;
   color: ${colors.black};
   transition: color 0.2s ease-in-out;
+  font-size: ${sizes.size_5};
+  font-weight: ${weights.ultralight};
 
   &:hover {
     color: ${colors.default};

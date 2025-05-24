@@ -11,11 +11,9 @@ export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
   padding-bottom: ${spaces.space_4};
-  border: 1px solid purple;
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
     padding-bottom: ${spaces.space_2};
-    border: 1px solid orange;
   }
 `;
 export const Content = styled.p`
@@ -23,10 +21,11 @@ export const Content = styled.p`
   font-weight: ${weights.light};
   line-height: 1.7;
 `;
-export const VideoSection = styled.video`
+
+export const VideoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100%;
-  border: 1px solid blue;
-  transition: all 0.5s ease;
-  cursor: pointer;
+  padding-bottom: 32px;
 `;

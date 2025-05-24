@@ -48,7 +48,7 @@ export const ServiceStyle = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: ${sizes.size_2};
+    font-size: ${sizes.size_3};
     font-weight: ${weights.bold};
     text-align: center;
     top: 50%;
@@ -56,6 +56,7 @@ export const ServiceStyle = styled.div`
     z-index: ${zindex.base};
     color: ${colors.white};
     transition: all 0.5s ease;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   }
   &:hover {
     filter: saturate(1);

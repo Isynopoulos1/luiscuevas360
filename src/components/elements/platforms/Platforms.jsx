@@ -21,21 +21,21 @@ function Platforms() {
         <CardsWrapper>
           <SocialCard
             label="instagram"
-            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/ig_luiscuevas360.jpg?updatedAt=1747675408282"
+            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/ig-lc.jpg?updatedAt=1748096773178"
             onClick={() =>
               window.open("https://www.instagram.com/luiscuevas360", "_blank")
             }
           />
           <SocialCard
             label="tiktok"
-            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/tik_luiscuevas360.jpg?updatedAt=1747675472939"
+            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/tiktok-luis-cuevas.jpg?updatedAt=1748096936394"
             onClick={() =>
               window.open("https://www.tiktok.com/@luigicaves", "_blank")
             }
           />
           <SocialCard
             label="spotify"
-            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/spotify_luiscuevas360jpg?updatedAt=1747675495063"
+            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/spotify-luis-cuevasjpg?updatedAt=1748096912145"
             onClick={() =>
               window.open(
                 "https://open.spotify.com/show/1yUfLj4f0KAWrzRbjJeItK?si=vpHGsgG5SXOBWQVLHpzGSw",
@@ -45,14 +45,14 @@ function Platforms() {
           />
           <SocialCard
             label="youtube"
-            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/yt_luiscuevas360.jpg?updatedAt=1747675484561"
+            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/yt-luis-cuevas.jpg?updatedAt=1748096960960"
             onClick={() =>
               window.open("https://www.youtube.com/@luiscuevas3603", "_blank")
             }
           />
           <SocialCard
             label="linkedin"
-            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/in_luiscuevas360.jpg?updatedAt=1747675421537"
+            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/in-luis-cuevas.jpg?updatedAt=1748096888690"
             onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/luis-cuevas-3a533a69/",
