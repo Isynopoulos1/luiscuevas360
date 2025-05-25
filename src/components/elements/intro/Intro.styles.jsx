@@ -4,10 +4,11 @@ import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 export const MainContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   gap: ${spaces.space_4};
+  height: 100vh;
+  justify-content: center;
 
   @media only screen and (max-width: ${contentW.tablet}) {
     height: 80vh;

@@ -5,7 +5,6 @@ export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 60vh;
 `;
 export const CardsWrapper = styled.div`
   display: flex;
@@ -20,19 +19,20 @@ export const CardsWrapper = styled.div`
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
-  padding-bottom: ${spaces.space_4};
+  padding-bottom: 32px;
+
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
-    padding-bottom: ${spaces.space_2};
   }
 `;
 
 export const Testimonials = styled.div`
   width: 100%;
-  padding-bottom: ${spaces.space_4};
+  padding-top: 50px;
+
   @media only screen and (max-width: ${contentW.mobile}) {
     text-align: center;
-    padding-bottom: ${spaces.space_2};
+    padding-top: 16px;
   }
 `;
 export const TestimonialWrapper = styled.div`

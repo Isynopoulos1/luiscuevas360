@@ -45,8 +45,7 @@ function Header() {
     if (section) {
       section.scrollIntoView({
         behavior: "smooth",
-        block: "end",
-        inline: "end",
+        block: "center",
       });
       setToggle(false);
     }

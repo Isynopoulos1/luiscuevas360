@@ -6,7 +6,6 @@ export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: 30vh;
   @media only screen and (max-width: ${contentW.desktop}) {
     padding: ${spaces.space_3};
   }

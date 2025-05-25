@@ -35,7 +35,7 @@ function Intro() {
         </ColumnLeft>
         <ColumnRight>
           <img
-            src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/intro/intro-photo-square?updatedAt=1746813292241"
+            src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/intro/intro-photo-square.jpg?updatedAt=1748158665279"
             alt="Foto intro"
           />
         </ColumnRight>

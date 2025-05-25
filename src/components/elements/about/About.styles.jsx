@@ -3,7 +3,6 @@ import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 
 export const MainContainer = styled.div`
   width: 100%;
-  min-height: 80vh;
 `;
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
