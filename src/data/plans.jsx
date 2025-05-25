@@ -16,7 +16,7 @@ export const services = [
       "Planes de ahorro para su universidad, personalizados y con rendimientos garantizados por encima de la inflación.",
   },
   {
-    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/gastos-med.png?updatedAt=1746813535131",
+    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/gastos-med.jpg?updatedAt=1748182096691",
     title: "Seguros de Gastos Médicos Mayores",
     plan: "Tu tranquilidad es primero",
     description:
