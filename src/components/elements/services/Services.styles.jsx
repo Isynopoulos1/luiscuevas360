@@ -12,7 +12,7 @@ export const ServiceWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: ${spaces.space_2};
+  gap: ${spaces.space_4};
   width: 100%;
   line-height: 1.7;
   @media only screen and (max-width: ${contentW.mobile}) {

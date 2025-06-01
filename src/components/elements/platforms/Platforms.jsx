@@ -21,7 +21,7 @@ function Platforms() {
         <CardsWrapper>
           <SocialCard
             label="instagram"
-            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/ig-lc.jpg?updatedAt=1748096773178"
+            background="https://ik.imagekit.io/ppayaz/luis-cuevas-360/platforms/ig-luis-cuevas.jpg?updatedAt=1748096835913"
             onClick={() =>
               window.open("https://www.instagram.com/luiscuevas360", "_blank")
             }

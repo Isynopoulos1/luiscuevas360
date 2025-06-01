@@ -14,6 +14,11 @@ export const SectionName = styled.p`
     padding-bottom: ${spaces.space_2};
   }
 `;
+export const Description = styled.div`
+  font-size: ${sizes.size_2};
+  font-weight: ${weights.light};
+  line-height: 1.7;
+`;
 export const Content = styled.p`
   font-size: ${sizes.size_2};
   font-weight: ${weights.light};

@@ -13,10 +13,21 @@
     "content2": "Fuera del mundo de las finanzas, disfruto entrenar calistenia con pesas rusas, el hockey y pasar tiempo en familia. Creo en una vida equilibrada que incluya lo que te apasiona."
   },
   "philosophy": {
-    "content": [
-      "Creo que las finanzas personales no se tratan solo de números, sino de decisiones diarias, emociones y objetivos reales. Por eso combino la estrategia financiera con los principios de la economía conductual: para ayudarte a evitar los errores comunes, aprovechar tu propio comportamiento a tu favor y mantener el rumbo incluso cuando las circunstancias cambian. Mi trabajo es acompañarte de forma cercana y constante, con un plan realista que se adapte a tu vida, no al revés. Porque construir un patrimonio no es un evento, es un proceso."
-    ]
+    "content1": "Muchos asesores crean planes financieros que se ven perfectos en Excel, pero fallan en el mundo real. Mi diferencia está en combinar la estrategia financiera con la economía conductual, para ayudarte a tomar decisiones más inteligentes y sostenibles en el día a día.",
+    "content2": "Dos obstáculos comunes que no se resuelven solo con números:",
+    "items": [
+      {
+        "bold": "1. Depender de tu fuerza de voluntad",
+        "text": "La economía conductual nos muestra que no somos tan racionales como creemos. No se trata de esforzarte más, sino de crear un sistema que funcione incluso cuando no estás motivado."
+      },
+      {
+        "bold": "2. Un entorno incierto",
+        "text": "La incertidumbre no se evita, se anticipa. Tu estrategia debe estar preparada para adaptarse a los cambios y seguir avanzando."
+      }
+    ],
+    "content3": "Mi filosofía es simple: un plan realista, adaptado a ti, que funcione en la vida real."
   },
+
   "testimonials": [
     {
       "comment": "Excelente atención y servicio personalizado.",
