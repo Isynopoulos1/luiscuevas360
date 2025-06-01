@@ -6,6 +6,7 @@ import {
   CardWrapper,
   Plan,
   Description,
+  TitleOverlay,
   Content,
 } from "@elements/card/Card.styles";
 
@@ -14,7 +15,7 @@ const Card = ({ title, img, description, plan }) => {
     <CardWrapper>
       <ServiceStyle>
         <img src={img} alt={title} />
-        <h3>{title}</h3>
+        <TitleOverlay>{title}</TitleOverlay>
       </ServiceStyle>
       <Content>
         <Plan>{plan}</Plan>
@@ -23,5 +24,4 @@ const Card = ({ title, img, description, plan }) => {
     </CardWrapper>
   );
 };
-
 export default Card;

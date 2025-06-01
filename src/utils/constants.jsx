@@ -2,7 +2,7 @@ export const sizes = {
   size_copyright: "12px",
   size_1: "14px",
   size_2: "16px",
-  size_3: "24px",
+  size_3: "20px",
   size_4: "32px",
   size_5: "40px",
   size_6: "48px",
