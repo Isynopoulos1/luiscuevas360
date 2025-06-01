@@ -57,7 +57,7 @@ function Contact() {
               >
                 <Whatsapp />
               </a>
-              <Number>+52 5540908318</Number>
+              <Number>+52 xx xx xx xx xx</Number>
             </DataPhone>
           </Phone>
           <Social>
