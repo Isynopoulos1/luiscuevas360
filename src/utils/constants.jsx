@@ -61,4 +61,5 @@ export const colors = {
   black: "#000000",
   white: "#ffff",
   turquesa: "#61BFC5",
+  testimonials: "#5ac5c64d",
 };

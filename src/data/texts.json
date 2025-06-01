@@ -1,6 +1,6 @@
 {
   "intro": {
-    "description": " 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧ESTAMOS TRABAJANDO EN EL NUEVO SITIO WEB. ESTARÁ DISPONIBLE MUY PRONTO🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧"
+    "description": "Construir un patrimonio es cuestión de hábitos, no de suerte. Mi enfoque une estrategia financiera y economía conductual para ayudarte a tomar mejores decisiones y lograr tus metas con constancia y claridad. "
   },
   "about": {
     "content1": [
@@ -30,20 +30,20 @@
 
   "testimonials": [
     {
-      "comment": "Lorem ipsum.",
-      "author": "xxx"
+      "comment": "Luis une estrategia y empatía. Hoy tomo mejores decisiones financieras.",
+      "author": "Miguel, Consultor de Negocios"
     },
     {
-      "comment": "Lorem ipsum",
-      "author": "xxx"
+      "comment": "Luis me dio claridad, enfoque y una ruta concreta, realista, que sí puedo seguir.",
+      "author": "David, Ingeniero Civil"
     },
     {
-      "comment": "Lorem ipsum",
-      "author": "xxx"
+      "comment": "Ahora tengo un sistema que funciona, incluso cuando no estoy motivada.",
+      "author": "Karla, Nutrióloga"
     },
     {
-      "comment": "Lorem ipsum",
-      "author": "xxx"
+      "comment": "Nada de fórmulas mágicas: con Luis construí un plan real y funcional.",
+      "author": "Ricardo, Médico General"
     }
   ]
 }

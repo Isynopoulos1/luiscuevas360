@@ -12,10 +12,12 @@ export const TestimonialWrapper = styled.div`
   display: flex;
   width: 350px;
   height: auto;
-  padding-bottom: ${spaces.space_2};
-  gap: ${spaces.space_1};
+
+  border-radius: 8px;
+  padding: ${spaces.space_2};
+  gap: ${spaces.space_2};
   flex-direction: column;
-  background-color: ${colors.white};
+  background-color: ${colors.testimonials};
   @media only screen and (max-width: ${contentW.mobile}) {
     width: 100%;
     text-align: center;
@@ -31,9 +33,10 @@ export const Ranking = styled.div`
     justify-content: center;
   }
 `;
+
 export const StarIcon = styled.span`
   font-size: 18px;
-  color: ${colors.turquesa};
+  color: ${colors.default};
 `;
 
 export const Comment = styled.p`
