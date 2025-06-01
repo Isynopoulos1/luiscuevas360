@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
   display: flex;
   align-items: center;
   gap: ${spaces.space_4};
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
 
   @media only screen and (max-width: ${contentW.tablet}) {

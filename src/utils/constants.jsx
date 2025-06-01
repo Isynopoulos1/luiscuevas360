@@ -62,4 +62,5 @@ export const colors = {
   white: "#ffff",
   turquesa: "#61BFC5",
   testimonials: "#5ac5c64d",
+  footer: "#282828",
 };

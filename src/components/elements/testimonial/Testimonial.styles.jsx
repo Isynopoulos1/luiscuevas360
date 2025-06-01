@@ -17,7 +17,7 @@ export const TestimonialWrapper = styled.div`
   padding: ${spaces.space_2};
   gap: ${spaces.space_2};
   flex-direction: column;
-  background-color: ${colors.testimonials};
+  border: 1px solid ${colors.default};
   @media only screen and (max-width: ${contentW.mobile}) {
     width: 100%;
     text-align: center;

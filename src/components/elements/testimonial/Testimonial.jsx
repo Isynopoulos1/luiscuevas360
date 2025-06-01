@@ -15,7 +15,7 @@ const Testimonial = ({ comment, author }) => {
       <Ranking>
         <div>
           {[...Array(5)].map((_, i) => (
-            <FaStar key={i} color="#9359fc" />
+            <FaStar key={i} color="#61BFC5" />
           ))}
         </div>
       </Ranking>

@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
   height: auto;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 100px;
   @media only screen and (max-width: ${contentW.desktop}) {
     padding: 104px 24px 24px;
     gap: 16px;

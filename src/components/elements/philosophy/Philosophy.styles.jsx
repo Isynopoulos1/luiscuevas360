@@ -4,7 +4,7 @@ import { colors, sizes, spaces, contentW, weights } from "@utils/constants";
 export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: ${spaces.space_4};
+  gap: ${spaces.space_5};
 `;
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};

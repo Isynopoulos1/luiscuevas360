@@ -21,18 +21,33 @@ export const SectionName = styled.p`
     padding-bottom: ${spaces.space_2};
   }
 `;
+export const ContactWrapper = styled.div`
+  background-color: ${colors.footer};
+  padding-left: 16px;
+  padding-right: 16px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+`;
 export const ContactSection = styled.div`
   display: flex;
   width: 100%;
   height: auto;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 32px;
   padding-bottom: 32px;
+  gap: ${spaces.space_2};
+
   @media only screen and (max-width: ${contentW.mobile}) {
     flex-direction: column;
     text-align: center;
   }
 `;
+
 export const Module = styled.h1`
   font-size: ${sizes.size_1};
   font-weight: ${weights.bold};
@@ -41,6 +56,7 @@ export const Location = styled.div`
   display: flex;
   flex-direction: column;
   line-height: 1.7;
+  color: ${colors.white};
 `;
 export const DataLoc = styled.div`
   display: flex;
@@ -56,8 +72,10 @@ export const Adress = styled.p`
 
 export const Recomendations = styled.div`
   display: flex;
+  color: ${colors.white};
   flex-direction: column;
   height: auto;
+  gap: ${spaces.space_2};
   line-height: 1.7;
 `;
 export const RecLink = styled.div`
@@ -70,6 +88,7 @@ export const RecLink = styled.div`
 `;
 export const Phone = styled.div`
   display: flex;
+  color: ${colors.white};
   flex-direction: column;
   height: auto;
   gap: ${spaces.space_2};
@@ -88,6 +107,7 @@ export const Number = styled.p`
 export const Social = styled.div`
   gap: ${spaces.space_1};
   display: flex;
+  color: ${colors.white};
   flex-direction: column;
   height: auto;
   gap: ${spaces.space_2};
@@ -95,7 +115,7 @@ export const Social = styled.div`
 export const Icons = styled.div`
   width: 100%;
   svg {
-    color: ${colors.black};
+    color: ${colors.white};
     transition: transform 0.1s ease, fill 0.1s ease;
     cursor: pointer;
 
@@ -107,11 +127,13 @@ export const Icons = styled.div`
 `;
 
 export const Copyright = styled.div`
+  color: ${colors.white};
   font-size: ${sizes.size_copyright};
-  color: ${colors.black};
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  padding-bottom: 16px;
 `;
