@@ -13,8 +13,11 @@ export const MainContainer = styled.div`
 
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
+  color: ${colors.white};
   font-weight: ${weights.ultralight};
   padding-bottom: ${spaces.space_4};
+  padding-top: ${spaces.space_4};
+
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
     text-align: center;
@@ -27,6 +30,7 @@ export const ContactWrapper = styled.div`
   padding-right: 16px;
   min-height: 300px;
   display: flex;
+  height: 500px;
   flex-direction: column;
   justify-content: space-between;
   border-top-left-radius: 8px;

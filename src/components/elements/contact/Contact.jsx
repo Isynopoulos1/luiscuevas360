@@ -32,8 +32,8 @@ function Contact() {
   return (
     <section id="contact">
       <MainContainer>
-        <SectionName>Contacto</SectionName>
         <ContactWrapper>
+          <SectionName>Contacto</SectionName>
           <ContactSection id="contact">
             <Location>
               <DataLoc>
