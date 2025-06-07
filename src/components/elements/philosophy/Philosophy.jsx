@@ -28,7 +28,6 @@ function Philosophy() {
           ))}
           <Content style={{ marginTop: "1em" }}>{philosophy.content3}</Content>
         </Description>
-
         <VideoContainer>
           <iframe
             width="100%"

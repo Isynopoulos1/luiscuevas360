@@ -82,6 +82,15 @@ export const RecLink = styled.div`
     font-size: ${sizes.size_1};
     text-decoration: underline;
   }
+  a {
+    text-decoration: none;
+    color: ${colors.black};
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: ${colors.default};
+    }
+  }
 `;
 export const Phone = styled.div`
   display: flex;

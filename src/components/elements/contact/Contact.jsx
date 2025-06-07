@@ -44,11 +44,28 @@ function Contact() {
             <Recomendations>
               <Module>Recomendaciones</Module>
               <RecLink>
-                <li>www.ejemplo.com</li>
-                <li>www.ejemplo.com</li>
-                <li>www.ejemplo.com</li>
+                <li>
+                  <a
+                    href="https://open.spotify.com/episode/2yFN4ufVtR9CbL9le01I1A?si=1Zxw14L6RYO8VyDRkFbLeg
+                    m"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Compra tu tranquilidad asegurándote
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.elasegurador.com.mx/blog/conocer-sesgos-cognitivos-multiplica-las-opciones-de-dialogo-con-clientes/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Conocer sesgos amplía el diálogo con clientes
+                  </a>
+                </li>
               </RecLink>
             </Recomendations>
+
             <Phone>
               <Module>Teléfono</Module>
               <DataPhone>
