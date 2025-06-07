@@ -12,7 +12,7 @@ export const sizes = {
   size_10: "80px",
   size_11: "88px",
   size_12: "96px",
-  size_13: "104px",
+  size_13: "100px",
   size_14: "112px",
   size_15: "120px",
   size_16: "128px",
@@ -20,6 +20,8 @@ export const sizes = {
   size_18: "144px",
   size_19: "152px",
   size_20: "160px",
+  size_21: "180px",
+  size_22: "200px",
 };
 
 export const spaces = {
@@ -33,6 +35,7 @@ export const spaces = {
   space_8: "64px",
   space_9: "72px",
   space_10: "80px",
+  space_11: "100px",
 };
 
 export const weights = {

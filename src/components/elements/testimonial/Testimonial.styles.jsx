@@ -12,7 +12,6 @@ export const TestimonialWrapper = styled.div`
   display: flex;
   width: 350px;
   height: auto;
-
   border-radius: 8px;
   padding: ${spaces.space_2};
   gap: ${spaces.space_2};

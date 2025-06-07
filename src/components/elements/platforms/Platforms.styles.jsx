@@ -29,7 +29,7 @@ export const SectionName = styled.p`
 
 export const Testimonials = styled.div`
   width: 100%;
-  padding-top: ${spaces.space_10};
+  padding-top: ${spaces.space_11};
   @media only screen and (max-width: ${contentW.mobile}) {
     text-align: center;
     padding-top: 16px;

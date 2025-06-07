@@ -25,19 +25,16 @@ export const SectionName = styled.p`
 `;
 export const ContactWrapper = styled.div`
   background-color: ${colors.white};
-  padding-left: 16px;
-  padding-right: 16px;
-  min-height: 300px;
+  padding-left: ${spaces.space_2};
+  padding-right: ${spaces.space_2};
   display: flex;
-  height: 400px;
   flex-direction: column;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: ${spaces.space_1};
+  border-top-right-radius: ${spaces.space_1};
 `;
 export const ContactSection = styled.div`
   display: flex;
   width: 100%;
-  min-height: 200px;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: ${spaces.space_2};
@@ -130,10 +127,11 @@ export const Copyright = styled.div`
   color: ${colors.black};
   font-size: ${sizes.size_copyright};
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: ${weights.light};
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-bottom: 16px;
+  padding-top: ${sizes.size_6};
+  padding-bottom: ${sizes.size_2};
 `;
