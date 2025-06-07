@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
   font-weight: ${weights.ultralight};
-  padding-bottom: ${spaces.space_4};
+  padding-bottom: ${spaces.space_5};
 
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};

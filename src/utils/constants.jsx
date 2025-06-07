@@ -40,6 +40,7 @@ export const weights = {
   bold: 500,
   light: 300,
   ultralight: 200,
+  black: 800,
 };
 export const zindex = {
   base: "1",

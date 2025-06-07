@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
   justify-content: center;
 
   @media only screen and (max-width: ${contentW.tablet}) {
-    height: 80vh;
+    height: auto;
   }
   @media only screen and (max-width: ${contentW.mobile}) {
     flex-direction: column;

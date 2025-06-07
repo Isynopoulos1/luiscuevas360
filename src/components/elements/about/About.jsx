@@ -25,7 +25,7 @@ function About() {
           <ColumnLeft>
             <Photo>
               <img
-                src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/about/luis-cuevas-foto-intro.jpg?updatedAt=1749226967974"
+                src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/intro/intro-photo-square_2.jpg?updatedAt=1748179751342"
                 alt="Foto intro"
               />
             </Photo>

@@ -9,6 +9,7 @@ import {
 //IMPORT COMPONENTS
 import SocialCard from "@elements/socialCard/SocialCard.jsx";
 import Testimonial from "@elements/testimonial/Testimonial.jsx";
+import Insignias from "@elements/insignias/Insignias.jsx";
 //IMPORT DATA
 import texts from "@data/texts.json";
 const testimonials = texts.testimonials;
@@ -69,6 +70,7 @@ function Platforms() {
             ))}
           </TestimonialWrapper>
         </Testimonials>
+        <Insignias />
       </MainContainer>
     </section>
   );

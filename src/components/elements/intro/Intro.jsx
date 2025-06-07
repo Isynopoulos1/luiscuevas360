@@ -18,7 +18,7 @@ function Intro() {
   const scrollToPhilosophy = () => {
     const section = document.getElementById("philosophy");
     if (section) {
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+      section.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   };
   return (
@@ -35,7 +35,7 @@ function Intro() {
         </ColumnLeft>
         <ColumnRight>
           <img
-            src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/intro/intro-photo-square_2.jpg?updatedAt=1748179751342"
+            src="https://ik.imagekit.io/ppayaz/luis-cuevas-360/intro/intro-luis-cuevas.jpg?updatedAt=1749231745668"
             alt="Foto intro"
           />
         </ColumnRight>

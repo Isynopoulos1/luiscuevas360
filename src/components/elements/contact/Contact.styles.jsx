@@ -13,10 +13,9 @@ export const MainContainer = styled.div`
 
 export const SectionName = styled.p`
   font-size: ${sizes.size_5};
-  color: ${colors.white};
+  color: ${colors.black};
   font-weight: ${weights.ultralight};
-  padding-bottom: ${spaces.space_4};
-  padding-top: ${spaces.space_4};
+  padding-bottom: ${spaces.space_5};
 
   @media only screen and (max-width: ${contentW.mobile}) {
     font-size: ${sizes.size_3};
@@ -25,25 +24,22 @@ export const SectionName = styled.p`
   }
 `;
 export const ContactWrapper = styled.div`
-  background-color: ${colors.footer};
+  background-color: ${colors.white};
   padding-left: 16px;
   padding-right: 16px;
   min-height: 300px;
   display: flex;
-  height: 500px;
+  height: 400px;
   flex-direction: column;
-  justify-content: space-between;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 `;
 export const ContactSection = styled.div`
   display: flex;
   width: 100%;
-  height: auto;
+  min-height: 200px;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 32px;
-  padding-bottom: 32px;
   gap: ${spaces.space_2};
 
   @media only screen and (max-width: ${contentW.mobile}) {
@@ -60,7 +56,7 @@ export const Location = styled.div`
   display: flex;
   flex-direction: column;
   line-height: 1.7;
-  color: ${colors.white};
+  color: ${colors.black};
 `;
 export const DataLoc = styled.div`
   display: flex;
@@ -76,7 +72,7 @@ export const Adress = styled.p`
 
 export const Recomendations = styled.div`
   display: flex;
-  color: ${colors.white};
+  color: ${colors.black};
   flex-direction: column;
   height: auto;
   gap: ${spaces.space_2};
@@ -92,7 +88,7 @@ export const RecLink = styled.div`
 `;
 export const Phone = styled.div`
   display: flex;
-  color: ${colors.white};
+  color: ${colors.black};
   flex-direction: column;
   height: auto;
   gap: ${spaces.space_2};
@@ -111,7 +107,7 @@ export const Number = styled.p`
 export const Social = styled.div`
   gap: ${spaces.space_1};
   display: flex;
-  color: ${colors.white};
+  color: ${colors.black};
   flex-direction: column;
   height: auto;
   gap: ${spaces.space_2};
@@ -119,7 +115,7 @@ export const Social = styled.div`
 export const Icons = styled.div`
   width: 100%;
   svg {
-    color: ${colors.white};
+    color: ${colors.black};
     transition: transform 0.1s ease, fill 0.1s ease;
     cursor: pointer;
 
@@ -131,7 +127,7 @@ export const Icons = styled.div`
 `;
 
 export const Copyright = styled.div`
-  color: ${colors.white};
+  color: ${colors.black};
   font-size: ${sizes.size_copyright};
   font-family: "Roboto", sans-serif;
   font-weight: 300;
