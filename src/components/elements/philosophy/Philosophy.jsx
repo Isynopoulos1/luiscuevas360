@@ -8,6 +8,7 @@ import {
 
 // IMPORT DATA
 import texts from "@data/texts.json";
+import { weights } from "@utils/constants";
 
 function Philosophy() {
   const { philosophy } = texts;
@@ -21,7 +22,7 @@ function Philosophy() {
           {philosophy.items.map((item, index) => (
             <Content key={index}>
               <br />
-              <strong>{item.bold}</strong>
+              <p style={{ fontWeight: weights.bold }}>{item.bold}</p>
               <br />
               {item.text}
             </Content>

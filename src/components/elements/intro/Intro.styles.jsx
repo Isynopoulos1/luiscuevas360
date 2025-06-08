@@ -46,6 +46,7 @@ export const ColumnRight = styled.div`
     width: 100%;
   }
 `;
+export const Texts = styled.div``;
 export const DescriptionIntro = styled.div`
   display: flex;
   width: 100%;

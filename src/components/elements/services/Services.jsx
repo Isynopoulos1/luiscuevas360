@@ -24,7 +24,7 @@ function Services() {
   return (
     <section id="services">
       <MainContainer>
-        <SectionName>Services</SectionName>
+        <SectionName>Servicios</SectionName>
         <ServiceWrapper>{renderServices()}</ServiceWrapper>
       </MainContainer>
     </section>

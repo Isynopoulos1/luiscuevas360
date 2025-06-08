@@ -1,11 +1,13 @@
 import styled from "styled-components";
 //IMPORT STYLING
+import { weights } from "@utils/constants";
 import {
   MainContainer,
   ColumnLeft,
   LogoContainer,
   DescriptionIntro,
   ColumnRight,
+  Texts,
 } from "@elements/intro/Intro.styles";
 //IMPORT COMPONENTS
 import Logo from "@elements/logo/Logo.jsx";
@@ -29,7 +31,12 @@ function Intro() {
             <Logo />
           </LogoContainer>
           <DescriptionIntro>
-            <p>{texts.intro.description}</p>
+            <Texts>
+              <p style={{ fontWeight: weights.bold }}>
+                {texts.intro.description1}
+              </p>
+              <p>{texts.intro.description2}</p>
+            </Texts>
             <Button onClick={scrollToPhilosophy} />
           </DescriptionIntro>
         </ColumnLeft>
