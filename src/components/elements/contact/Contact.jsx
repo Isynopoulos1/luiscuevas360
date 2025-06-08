@@ -12,7 +12,8 @@ import {
   Module,
   DataLoc,
   Location,
-  Adress,
+  Office,
+  Address,
   Recomendations,
   DataPhone,
   Phone,
@@ -38,7 +39,19 @@ function Contact() {
             <Location>
               <DataLoc>
                 <Module>Locación</Module>
-                <Adress>text</Adress>
+                <Office>
+                  <a
+                    href="https://maps.app.goo.gl/C4PDys9giKKHnYhZ9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Orbis Consultores Patrimoniales
+                  </a>
+                </Office>
+                <Address>
+                  Av. P.º de la Reforma 342, Juárez, Cuauhtémoc,<br></br> 06600
+                  Ciudad de México, CDMX, México
+                </Address>
               </DataLoc>
             </Location>
             <Recomendations>
@@ -61,6 +74,15 @@ function Contact() {
                     rel="noopener noreferrer"
                   >
                     Conocer sesgos amplía el diálogo con clientes
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=BUl4YCuNVUc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Cómo puedes ser más fuerte ante la adversidad
                   </a>
                 </li>
               </RecLink>

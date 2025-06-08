@@ -63,7 +63,23 @@ export const DataLoc = styled.div`
   gap: ${spaces.space_2};
 `;
 
-export const Adress = styled.p`
+export const Office = styled.p`
+  font-size: ${sizes.size_1};
+  font-weight: ${weights.bold};
+  text-decoration: underline;
+  }
+  a {
+    text-decoration: none;
+    color: ${colors.black};
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: ${colors.default};
+    }
+  }
+`;
+
+export const Address = styled.p`
   font-size: ${sizes.size_1};
 `;
 
@@ -141,6 +157,6 @@ export const Copyright = styled.div`
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: ${sizes.size_6};
+  padding-top: ${sizes.size_11};
   padding-bottom: ${sizes.size_2};
 `;

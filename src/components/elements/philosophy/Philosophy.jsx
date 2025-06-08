@@ -22,7 +22,7 @@ function Philosophy() {
           {philosophy.items.map((item, index) => (
             <Content key={index}>
               <br />
-              <p style={{ fontWeight: weights.bold }}>{item.bold}</p>
+              <strong style={{ fontWeight: weights.bold }}>{item.bold}</strong>
               <br />
               {item.text}
             </Content>

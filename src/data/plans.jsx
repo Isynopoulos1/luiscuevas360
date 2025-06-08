@@ -9,7 +9,7 @@ export const services = [
       "Construye un ingreso mensual para tu retiro con la mejor estrategia fiscal. Te acompañamos cada año para optimizar tu ahorro y asegurar tus metas.",
   },
   {
-    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/educacion.png?updatedAt=1746813566609",
+    href: "https://ik.imagekit.io/ppayaz/luis-cuevas-360/services/p-educacion.jpg?updatedAt=1749394517969",
     title: "Planes de Educación",
     plan: "Regala a tus hijos un futuro brillante",
     description:
