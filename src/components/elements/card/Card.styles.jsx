@@ -49,9 +49,12 @@ export const ServiceStyle = styled.div`
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 80%;
   border-radius: ${spaces.space_1};
-
   transition: all 0.5s ease;
+  @media only screen and (max-width: ${contentW.mobile}) {
+    height: auto;
+  }
 
   img {
     width: 100%;

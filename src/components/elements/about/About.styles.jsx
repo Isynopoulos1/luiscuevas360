@@ -59,8 +59,13 @@ export const ProfesionalDescription = styled.p`
   font-weight: ${weights.light};
   line-height: 1.7;
   strong {
-    font-weight: ${weights.bold}; 
+    font-weight: ${weights.bold};
+  }
+  @media only screen and (max-width: ${contentW.mobile}) {
+    margin-bottom: 32px;
+  }
 `;
+
 export const HobbiesDescription = styled.p`
   font-size: ${sizes.size_2};
   font-weight: ${weights.light};
@@ -74,6 +79,9 @@ export const HobbiesPhotos = styled.div`
   justify-content: flex-start;
   width: 100%;
   gap: ${spaces.space_4};
+  @media only screen and (max-width: ${contentW.mobile}) {
+    flex-direction: column;
+  }
 `;
 export const RightBox = styled.div`
   flex: 1 1 calc(50% - 16px);

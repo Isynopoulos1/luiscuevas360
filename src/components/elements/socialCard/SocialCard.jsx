@@ -7,7 +7,7 @@ const SocialCard = ({ label, onClick, background }) => {
       label={label}
       style={{ backgroundImage: `url(${background})` }}
     >
-      <FollowButton onClick={onClick}>Ve más</FollowButton>
+      <FollowButton onClick={onClick}>Ver más</FollowButton>
     </CardWrapper>
   );
 };
