@@ -92,7 +92,7 @@ function Contact() {
               <Module>Teléfono</Module>
               <DataPhone>
                 <a
-                  href="https://wa.me/525540908318"
+                  href="https://wa.me/52"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
